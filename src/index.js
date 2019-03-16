@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Home from './views/Home'; 
+import Home from './views/Home';
+import Video from './views/Video';
 import Menu from './components/Menu';
 
 const Root = () => (
@@ -11,6 +12,7 @@ const Root = () => (
         <Menu/>
         <Switch>
             <Route exact path='/' component={Home}/>
+            <Route path='/video' component={Video}/>
         </Switch>
     </BrowserRouter>
 )
