@@ -55,11 +55,8 @@
 
     &-project{
         padding: 0 45px;
-        &-{
+        &-1, &-2, &-3{
             height: 100vh;
-        }
-        &-2{
-            justify-content: flex-end;
         }
         &-image{
             width:  514px;
