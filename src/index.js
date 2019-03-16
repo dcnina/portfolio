@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './index.scss';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './views/Home'; 
+import Menu from './components/Menu';
 
 const Root = () => (
     <BrowserRouter>
+        <Menu/>
         <Switch>
             <Route exact path='/' component={Home}/>
         </Switch>

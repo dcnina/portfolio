@@ -1,0 +1,70 @@
+.home{
+    background-color: $beige;
+    
+    &-header{
+        height: 100vh;
+        position: relative;
+    }
+    
+    &-title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        right: 44px;
+        top: 50%;
+        transform: translate3d(0,-50%,0);
+        &-formes{
+            position: absolute;
+            z-index: -1;
+            &-1{
+                background-image: url('./assets/Vector.svg');
+                width: 235px;
+                height: 223px;
+                margin-left: -197px;
+                margin-top: -146px;
+                position: inherit;          
+            }
+            &-2{
+                background-image: url('./assets/Vector2.svg');
+                width: 289px;
+                height: 245px;
+                margin-left: -173px;
+                margin-top: -36px;  
+                z-index: -2;
+                position: inherit; 
+            }
+            &-3{
+                background-image: url('./assets/points.svg');
+                width: 81px;
+                height: 85px;
+                margin-top: -148px;
+                margin-left: -193px;
+                z-index: 0;
+                position: inherit;
+            }
+        }
+        &-notfill{
+            margin-top: -39px;
+            margin-left: -239px;
+        }
+        &-3{
+            margin-left: 79px;
+        }
+    }
+
+    &-project{
+        padding: 0 45px;
+        &-{
+            height: 100vh;
+        }
+        &-2{
+            justify-content: flex-end;
+        }
+        &-image{
+            width:  514px;
+            height: 514px;
+        }
+    }
+}
+
