@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import bgVideo from '../assets/bg-video.jpg';
 
