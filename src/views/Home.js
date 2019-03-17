@@ -24,11 +24,44 @@ class Home extends Component {
         <div className="home-project">
             <div className="home-project-1">
                 <img className="home-project-image" src={require("../assets/projet-1.png")}/>
+                <div className="home-project-text">
+                    <p className="home-project-1-text-title home-project-text-right">naivetés partagées</p>
+                    <p className="home-project-1-text-description">Et quoniam inedia gravi adflictabantur, locum petivere Paleas nomine, vergentem in mare, valido muro firmatum, ubi conduntur nunc usque commeatus distribui militibus omne latus Isauriae defendentibus adsueti.</p>
+                </div>
+                <div className="home-project-1-cat">
+                    <p className="home-project-1-cat-text">photography</p>
+                    <p className="home-project-1-cat-number">01</p>
+                </div>
             </div>
             <div className="home-project-2">
                 <img className="home-project-image" src={require("../assets/projet-2.png")}/>
+                <div className="home-project-text home-project-left">
+                    <p className="home-project-2-text-title home-project-text-left">micro complice</p>
+                    <p className="home-project-2-text-description">
+                    Short film directed in 48h during a week-end co-organized by 803Z and De l’autre Côté with the theme "Magic".
+                    <br/><br/>The film reinvent the communication in a parallel world where a crime took place.
+                    You will not see your mi- crowave the same way.
+                    <br/><br/><br/>
+                    <a href="https://youtu.be/q77jG6srjuM">https://youtu.be/q77jG6srjuM</a>
+                    </p>
+                </div>
+                <div className="home-project-2-cat">
+                    <p className="home-project-2-cat-text">video</p>
+                    <p className="home-project-2-cat-number">02</p>
+                </div>  
             </div>
             <div className="home-project-3">
+                <img className="home-project-image" src={require("../assets/pulp.png")}/>
+                <div className="home-project-text">
+                    <p className="home-project-3-text-title home-project-text-right">pulp festival</p>
+                    <p className="home-project-3-text-description">
+                    Et quoniam inedia gravi adflictabantur, locum petivere Paleas nomine, vergentem in mare, valido muro firmatum, ubi conduntur nunc usque commeatus distribui militibus omne latus Isauriae defendentibus adsueti.
+                    </p>
+                </div>
+                <div className="home-project-3-cat">
+                    <p className="home-project-3-cat-text">dev app</p>
+                    <p className="home-project-3-cat-number">03</p>
+                </div>
             </div>
         </div>
       </div>
