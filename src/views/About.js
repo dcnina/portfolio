@@ -13,10 +13,10 @@ class About extends Component {
             <p className="about-description-mail">Contact me : dcninaa@gmail.com</p>
         </div>
         <div className="about-icons">
-            <img className="about-icons-image" src={require("../assets/instagram-logo.png")}/>
-            <img className="about-icons-image" src={require("../assets/github-logo.png")}/>
-            <img className="about-icons-image" src={require("../assets/linkedin.png")}/>
-            <img className="about-icons-image" src={require("../assets/cv.svg")}/>
+            <a href="https://www.instagram.com/ninaa_dc/"><img className="about-icons-image" src={require("../assets/instagram-logo.png")}/></a>
+            <a href="https://github.com/dcnina"><img className="about-icons-image" src={require("../assets/github-logo.png")}/></a>
+            <a href="https://www.linkedin.com/in/nina-de-castro-299626181/"><img className="about-icons-image" src={require("../assets/linkedin.png")}/></a>
+            <a href=""><img className="about-icons-image" src={require("../assets/cv.svg")}/></a>
         </div>
       </div>
     );

@@ -8,6 +8,7 @@ import Video from './views/Video';
 import Photo from './views/Photo';
 import Menu from './components/Menu';
 import About from './views/About';
+import Dev from './views/Dev';
 
 const Root = () => (
     <BrowserRouter>
@@ -17,6 +18,7 @@ const Root = () => (
           <Route exact path='/photography' component={Photo}/>
           <Route exact path='/video' component={Video}/>
           <Route exact path='/about' component={About}/>
+          <Route exact path='/dev' component={Dev}/>
         </Switch>
     </BrowserRouter>
 )

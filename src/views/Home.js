@@ -23,7 +23,7 @@ class Home extends Component {
         </div>
         <div className="home-project">
             <div className="home-project-1">
-                <img className="home-project-image" src={require("../assets/projet-1.png")}/>
+                <img alt="photography-image" className="home-project-image" src={require("../assets/projet-1.png")}/>
                 <div className="home-project-text">
                     <p className="home-project-1-text-title home-project-text-right">naivetés partagées</p>
                     <p className="home-project-1-text-description">Et quoniam inedia gravi adflictabantur, locum petivere Paleas nomine, vergentem in mare, valido muro firmatum, ubi conduntur nunc usque commeatus distribui militibus omne latus Isauriae defendentibus adsueti.</p>
@@ -34,7 +34,7 @@ class Home extends Component {
                 </div>
             </div>
             <div className="home-project-2">
-                <img className="home-project-image" src={require("../assets/projet-2.png")}/>
+                <img alt="micro-complice-image" className="home-project-image" src={require("../assets/projet-2.png")}/>
                 <div className="home-project-text home-project-left">
                     <p className="home-project-2-text-title home-project-text-left">micro complice</p>
                     <p className="home-project-2-text-description">
@@ -42,7 +42,7 @@ class Home extends Component {
                     <br/><br/>The film reinvent the communication in a parallel world where a crime took place.
                     You will not see your mi- crowave the same way.
                     <br/><br/><br/>
-                    <a href="https://youtu.be/q77jG6srjuM">https://youtu.be/q77jG6srjuM</a>
+                    {/* <a href="https://youtu.be/q77jG6srjuM">https://youtu.be/q77jG6srjuM</a> */}
                     </p>
                 </div>
                 <div className="home-project-2-cat">
@@ -51,7 +51,7 @@ class Home extends Component {
                 </div>  
             </div>
             <div className="home-project-3">
-                <img className="home-project-image" src={require("../assets/pulp.png")}/>
+                <img alt="app-pulp-festival-image" className="home-project-image" src={require("../assets/pulp.png")}/>
                 <div className="home-project-text">
                     <p className="home-project-3-text-title home-project-text-right">pulp festival</p>
                     <p className="home-project-3-text-description">
