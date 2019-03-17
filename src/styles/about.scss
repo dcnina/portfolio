@@ -1,0 +1,45 @@
+.about{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &-image{
+        width: 400px;
+        height: 400px;
+    }
+    &-description{
+        padding-left: 30px;
+        padding-right: 40px;
+        flex-basis: 40%;
+        &-hello{
+            font-weight: 900;
+            font-size: 40px;
+            color: $saumon;
+        }
+        &-text{
+            font-size: 22px;
+            font-weight: 400;
+            padding-top: 15px;
+        }
+        &-mail{
+            font-size: 22px;
+            font-weight: 400;
+            padding-top: 15px;
+            color: $grey;
+        }
+    }
+    &-icons{
+        position: absolute;
+        right: 80px;
+        display: flex;
+        flex-direction: column;
+        
+        &-image{
+            width: 45px;
+            height: 45px;
+            margin: 10px 0 10px 0;
+        }
+    }
+}

@@ -7,14 +7,16 @@ import Home from './views/Home';
 import Video from './views/Video';
 import Photo from './views/Photo';
 import Menu from './components/Menu';
+import About from './views/About';
 
 const Root = () => (
     <BrowserRouter>
         <Menu/>
         <Switch>
           <Route exact path='/' component={Home}/>
-          <Route path='/photography' component={Photo}/>
-          <Route path='/video' component={Video}/>
+          <Route exact path='/photography' component={Photo}/>
+          <Route exact path='/video' component={Video}/>
+          <Route exact path='/about' component={About}/>
         </Switch>
     </BrowserRouter>
 )

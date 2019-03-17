@@ -6,6 +6,23 @@ html, body{
     background: $beige;
 }
 
+a.active {
+    font-weight: 500;
+    color: $saumon !important;
+}
+
+a:link {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+
+a:visited {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+
 *{
     box-sizing: inherit;
 }

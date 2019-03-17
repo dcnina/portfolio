@@ -18,5 +18,8 @@
         font-weight: 300;
         font-size:20px;
         color: $grey;
+        &-cat:hover{
+            cursor: pointer;
+        }
     }
 }
