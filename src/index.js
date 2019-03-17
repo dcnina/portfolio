@@ -3,14 +3,18 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Home from './views/Home'; 
+import Home from './views/Home';
+import Video from './views/Video';
+import Photo from './views/Photo';
 import Menu from './components/Menu';
 
 const Root = () => (
     <BrowserRouter>
         <Menu/>
         <Switch>
-            <Route exact path='/' component={Home}/>
+          <Route exact path='/' component={Home}/>
+          <Route path='/photography' component={Photo}/>
+          <Route path='/video' component={Video}/>
         </Switch>
     </BrowserRouter>
 )

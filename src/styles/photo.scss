@@ -1,0 +1,25 @@
+.photo {
+  width: 100vw;
+  height: 100vh;
+}
+
+.photoList {
+  width: 100%;
+  height: 700px;
+  padding: 150px 50px 0;
+  margin-bottom: 200px;
+
+  &-title{
+    font-weight: 500;
+    font-size: 65px;
+    color: $grey;
+    margin-bottom: 150px;
+  }
+
+  &-square{
+    width: 768px;
+    height: 512px;
+    background: $grey;
+    margin: 0 135px;
+  }
+}

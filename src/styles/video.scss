@@ -1,0 +1,45 @@
+.video {
+  padding-top: 250px;
+}
+
+.videoBlock:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.videoBlock:nth-child(odd) .videoBlock-titles-title {
+  margin-left: -5px;
+  transform: translate3d(240px, 0, 0);
+}
+
+.videoBlock:nth-child(odd) .videoBlock-titles-desc {
+  text-align: right;
+  margin-left: 0px;
+  margin-right: 20px;
+}
+
+.videoBlock {
+  display: flex;
+  max-width: 90vw;
+  padding-left: 70px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  flex-wrap: wrap;
+  &-img {
+    width: 652px;
+    height: 328px;
+    object-fit: cover;
+  }
+  &-titles {
+    flex-basis: 40%;
+    &-title {
+      font-weight: 500;
+      font-size: 90px;
+      color: $grey;
+      margin-left: -240px;
+    }
+    &-desc {
+      margin-top: 25px;
+      margin-left: 20px;
+    }
+  }
+}
