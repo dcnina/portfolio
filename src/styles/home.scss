@@ -54,13 +54,19 @@
     }
 
     &-project{
-        padding: 0 140px 0 45px;
+        margin: 0 auto;
+        width: 1280px;
+        @media (max-width: 1280px){
+            width: 1024px;
+        }
+        @media (max-width: 1024px){
+            width: 720px;
+        }
 
         &-1, &-2, &-3{
             height: 100vh;
             display: flex;
             position: relative;
-            padding: 0 45px 0 45px;
         }
         &-3{
             &-cat{
@@ -78,6 +84,7 @@
                 text-align: left;
                 border-left: 3px solid #D8B8AA;
                 margin-left: 30px;
+                margin-top: 20px;
             }
             &-text-title{
                 font-weight: 900;
@@ -115,6 +122,7 @@
                 text-align: right;
                 border-right: 3px solid #D8B8AA;
                 margin-right: 30px;
+                margin-top: 20px;
             }
             &-text-title{
                 font-weight: 900;
@@ -144,10 +152,15 @@
             } 
         }
         &-image{
-            width: auto;
+            //width: 520px;
             height: 68vh;
             // box-shadow: -4px 2px 13px #E9C9BB;
+            // @media (min-width: 1920px) and (min-height: 1080px){
+            //     width: 720px;
+            //     height: 720px;
+            // }
         }
+        
         &-text{
             display: flex;
             flex-basis: 40%;

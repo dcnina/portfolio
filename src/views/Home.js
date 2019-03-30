@@ -28,34 +28,33 @@ class Home extends Component {
                     <p className="home-project-1-text-title home-project-text-right">naivetés partagées</p>
                     <p className="home-project-1-text-description">Et quoniam inedia gravi adflictabantur, locum petivere Paleas nomine.</p>
                 </div>
-                <div className="home-project-1-cat">
+                {/* <div className="home-project-1-cat">
                     <p className="home-project-1-cat-text">01 - photography</p>
-                </div>
+                </div> */}
             </div>
             <div className="home-project-2">
                 <img alt="micro-complice" className="home-project-image" src={require("../assets/projet-2.png")}/>
                 <div className="home-project-text home-project-left">
                     <p className="home-project-2-text-title home-project-text-left">micro complice</p>
-                    <p className="home-project-2-text-description">
+                    <div className="home-project-2-text-description"><p>
                     Et quoniam inedia gravi adflictabantur, locum petivere Paleas nomine.
-                    {/* <a href="https://youtu.be/q77jG6srjuM">https://youtu.be/q77jG6srjuM</a> */}
-                    </p>
+                    </p></div>
                 </div>
-                <div className="home-project-2-cat">
+                {/* <div className="home-project-2-cat">
                     <p className="home-project-2-cat-text"> 02 - video</p>
-                </div>  
+                </div>   */}
             </div>
             <div className="home-project-3">
                 <img alt="app-pulp-festival" className="home-project-image" src={require("../assets/pulp.png")}/>
                 <div className="home-project-text">
                     <p className="home-project-3-text-title home-project-text-right">pulp festival</p>
-                    <p className="home-project-3-text-description">
+                    <div className="home-project-3-text-description"><p>
                     Et quoniam inedia gravi adflictabantur, locum petivere Paleas nomine.
-                    </p>
+                    </p></div>
                 </div>
-                <div className="home-project-3-cat">
+                {/* <div className="home-project-3-cat">
                     <p className="home-project-3-cat-text">03 - dev app</p>
-                </div>
+                </div> */}
             </div>
         </div>
       </div>
