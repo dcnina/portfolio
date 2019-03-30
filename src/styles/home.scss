@@ -1,5 +1,5 @@
 .home{
-    background-color: $beige;
+    // background-color: $beige;
     
     &-header{
         height: 100vh;
@@ -11,7 +11,7 @@
         flex-direction: column;
         justify-content: center;
         position: absolute;
-        right: 44px;
+        right: 41px;
         top: 50%;
         transform: translate3d(0,-50%,0);
         &-formes{
@@ -76,11 +76,14 @@
                 font-weight: 300;
                 font-size: 22px;
                 text-align: left;
+                border-left: 3px solid #D8B8AA;
+                margin-left: 30px;
             }
             &-text-title{
-                font-weight: 500;
+                font-weight: 900;
                 font-size: 70px;
                 color: $grey;
+                font-style: italic;
             }
             &-cat{
                 &-text{
@@ -110,13 +113,16 @@
                 font-weight: 300;
                 font-size: 22px;
                 text-align: right;
+                border-right: 3px solid #D8B8AA;
+                margin-right: 30px;
             }
             &-text-title{
-                font-weight: 500;
+                font-weight: 900;
                 font-size: 70px;
                 color: $grey;
+                font-style: italic;
                 text-align:right;
-                margin-right: -140px;
+                margin-right: -20px;
             }
             &-cat{
                 &-text{
@@ -139,7 +145,8 @@
         }
         &-image{
             width: auto;
-            height: 78vh;
+            height: 68vh;
+            // box-shadow: -4px 2px 13px #E9C9BB;
         }
         &-text{
             display: flex;
@@ -147,7 +154,7 @@
             flex-direction: column;
             padding-top: 50px;
             &-right{
-                margin-left: -170px;
+                margin-left: -20px;
                 margin-right: -45px;
             }
         }
