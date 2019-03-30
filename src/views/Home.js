@@ -23,18 +23,17 @@ class Home extends Component {
         </div>
         <div className="home-project">
             <div className="home-project-1">
-                <img alt="photography-image" className="home-project-image" src={require("../assets/projet-1.png")}/>
+                <img alt="photography" className="home-project-image" src={require("../assets/projet-1.png")}/>
                 <div className="home-project-text">
                     <p className="home-project-1-text-title home-project-text-right">naivetés partagées</p>
                     <p className="home-project-1-text-description">Et quoniam inedia gravi adflictabantur, locum petivere Paleas nomine.</p>
                 </div>
                 <div className="home-project-1-cat">
-                    <p className="home-project-1-cat-text">photography</p>
-                    <p className="home-project-1-cat-number">01</p>
+                    <p className="home-project-1-cat-text">01 - photography</p>
                 </div>
             </div>
             <div className="home-project-2">
-                <img alt="micro-complice-image" className="home-project-image" src={require("../assets/projet-2.png")}/>
+                <img alt="micro-complice" className="home-project-image" src={require("../assets/projet-2.png")}/>
                 <div className="home-project-text home-project-left">
                     <p className="home-project-2-text-title home-project-text-left">micro complice</p>
                     <p className="home-project-2-text-description">
@@ -43,12 +42,11 @@ class Home extends Component {
                     </p>
                 </div>
                 <div className="home-project-2-cat">
-                    <p className="home-project-2-cat-text">video</p>
-                    <p className="home-project-2-cat-number">02</p>
+                    <p className="home-project-2-cat-text"> 02 - video</p>
                 </div>  
             </div>
             <div className="home-project-3">
-                <img alt="app-pulp-festival-image" className="home-project-image" src={require("../assets/pulp.png")}/>
+                <img alt="app-pulp-festival" className="home-project-image" src={require("../assets/pulp.png")}/>
                 <div className="home-project-text">
                     <p className="home-project-3-text-title home-project-text-right">pulp festival</p>
                     <p className="home-project-3-text-description">
@@ -56,8 +54,7 @@ class Home extends Component {
                     </p>
                 </div>
                 <div className="home-project-3-cat">
-                    <p className="home-project-3-cat-text">dev app</p>
-                    <p className="home-project-3-cat-number">03</p>
+                    <p className="home-project-3-cat-text">03 - dev app</p>
                 </div>
             </div>
         </div>

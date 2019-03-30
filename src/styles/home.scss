@@ -89,12 +89,12 @@
                 &-text{
                     right: -226px;
                     bottom: 120px;
-                    font-weight: 400;
-                    font-size: 35px;
+                    font-style: italic;
+                    font-weight: 300;
+                    font-size: 30px;
                     color: $grey;
                     position: absolute;
                     transform: rotate(-90deg);
-                    transform-origin: left;
                 }
                 &-number{
                     font-size: 35px;
@@ -128,12 +128,12 @@
                 &-text{
                     right: -116px;
                     bottom: 120px;
-                    font-weight: 400;
-                    font-size: 35px;
+                    font-style: italic;
+                    font-weight: 300;
+                    font-size: 30px;
                     color: $grey;
                     position: absolute;
                     transform: rotate(-90deg);
-                    transform-origin: left;
                 }
                 &-number{
                     font-size: 35px;

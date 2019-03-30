@@ -7,11 +7,11 @@ class Dev extends Component {
       <div className="dev">
         <Line/>
         <div className="dev-project-1">
-          <img alt="pulp-image" className="dev-project-1-iphone-1" src={require("../assets/pulp-iphone2.png")}/>
+          <img alt="pulp" className="dev-project-1-iphone-1" src={require("../assets/pulp-iphone2.png")}/>
           <div className="dev-project-1-right">
             <p className="dev-project-title">pulp festival app</p>
             <div className="dev-project-1-right-description">
-              <img alt="pulp-image" className="dev-project-1-iphone-2" src={require("../assets/pulp-iphone3.png")}/>
+              <img alt="pulp" className="dev-project-1-iphone-2" src={require("../assets/pulp-iphone3.png")}/>
               <div className="dev-project-1-right-description-text">
                 <p className="dev-project-1-right-text">
                 Et quoniam inedia gravi adflictabantur, locum petivere Paleas nomine, vergentem in mare, valido muro firmatum, ubi conduntur nunc usque commeatus distribui militibus omne latus Isauriae defendentibus adsueti. 
@@ -31,11 +31,11 @@ class Dev extends Component {
             <p className="dev-project-2-top-text">
               Et quoniam inedia gravi adflictabantur, locum petivere Paleas nomine, vergentem in mare, valido muro firmatum, ubi conduntur nunc usque commeatus distribui militibus omne latus Isauriae defendentibus adsueti. 
             </p>
-            <img alt="listen-to-the-weather-image" className="dev-project-2-top-image" src={require("../assets/listen-accueil.png")}/>
+            <img alt="listen-to-the-weather" className="dev-project-2-top-image" src={require("../assets/listen-accueil.png")}/>
           </div>
           <div className="dev-project-2-bottom">
             <div className="dev-project-2-bottom">
-              <img alt="listen-to-the-weather-image" className="dev-project-2-bottom-image" src={require("../assets/listen-neige.png")}/>
+              <img alt="listen-to-the-weather" className="dev-project-2-bottom-image" src={require("../assets/listen-neige.png")}/>
               <div className="dev-project-2-bottom-description-link">
                 <a href="https://dcnina.github.io/listentotheweather/"><p>Website</p></a>
                 <div className="dev-project-2-bottom-description-line"></div>
@@ -45,7 +45,7 @@ class Dev extends Component {
         </div>
         <div className="dev-project-3">
           <div className="dev-project-3-left">
-            <img alt="run-in-the-valley-image1" className="dev-project-3-left-image" src={require("../assets/RunInTheValley_1.png")}/>
+            <img alt="run-in-the-valley" className="dev-project-3-left-image" src={require("../assets/RunInTheValley_1.png")}/>
             <div className="dev-project-3-left-description">
               <div className="dev-project-3-left-description-line"></div>
               <a href="https://github.com/dcnina/RunInTheValley"><p>Github</p></a>
@@ -57,8 +57,8 @@ class Dev extends Component {
               Et quoniam inedia gravi adflictabantur, locum petivere Paleas nomine, vergentem in mare, valido muro firmatum, ubi conduntur nunc usque commeatus distribui militibus omne latus Isauriae defendentibus adsueti. 
             </p>
             <div className="dev-project-3-right-images">
-              <img alt="run-in-the-valley-image1" className="dev-project-3-right-images-2" src={require("../assets/RunInTheValley_2.png")}/>
-              <img alt="run-in-the-valley-image1" className="dev-project-3-right-images-2" src={require("../assets/runinthevalley.png")}/>
+              <img alt="run-in-the-valley" className="dev-project-3-right-images-2" src={require("../assets/RunInTheValley_2.png")}/>
+              <img alt="run-in-the-valley" className="dev-project-3-right-images-2" src={require("../assets/runinthevalley.png")}/>
             </div>
           </div>
         </div>

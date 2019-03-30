@@ -1,7 +1,7 @@
 export default [
   {
     title: 'micro complice',
-    description: 'Short film directed in 48h during a week-end co-organized by 803Z and De l’autre Côté with the theme Magic.'+ "\n\n"+ 'The film reinvent the communication in a parallel world where a crime took place. You will not see your mi- crowave the same way.',
+    description: 'Short film directed in 48h during a week-end co-organized by 803Z and De l’autre Côté with the theme Magic. The film reinvent the communication in a parallel world where a crime took place. You will not see your mi- crowave the same way.',
     img: 'microcomplice'
   },
   {
