@@ -23,16 +23,18 @@
                 height: 223px;
                 margin-left: -197px;
                 margin-top: -146px;
-                position: inherit;          
+                position: inherit; 
+                animation: patateGrise 3s infinite linear;         
             }
             &-2{
                 background-image: url('./assets/Vector2.svg');
-                width: 289px;
-                height: 245px;
+                width: 297px;
+                height: 248px;
                 margin-left: -173px;
                 margin-top: -36px;  
                 z-index: -2;
                 position: inherit; 
+                animation: patateRose 4s infinite linear;
             }
             &-3{
                 background-image: url('./assets/points.svg');
