@@ -70,10 +70,9 @@
 
           &-images {
             width: 100%;
-            display: flex;
-            img {
-              margin-right: 20px;
-            }
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-column-gap: 20px;
           }
 
           &-text {
@@ -95,7 +94,7 @@
     display: grid;
     grid-template-columns: 30% 70%;
 
-    @media (max-width: 1240px) {
+    @media (max-width: 1380px) {
       max-width: 780px;
     }
 
