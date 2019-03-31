@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.scss";
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Home from "./views/Home";
+import Home from "./views/Home.jsx";
 import Video from "./views/Video";
 import Photo from "./views/Photo";
 import Menu from "./components/Menu";
