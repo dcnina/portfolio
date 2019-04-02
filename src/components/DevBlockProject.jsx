@@ -3,12 +3,12 @@ import React from "react";
 const DevBlockProject = ({ nb, title, imgs, description, links, category })=> (
   <div className={`devBlock-${nb} devBlock`}>
     <div className="devBlock-content">
-      <div className="devBlock-content-category">
-        <h2 className="devBlock-content-category-text">0{nb + 1} - <span>{category}</span></h2>
-      </div>
       <img className="devBlock-content-img" alt={imgs[0]} src={require(`../assets/${imgs[0]}.png`)} />
       <div className="devBlock-content-right">
         <h2 className="devBlock-content-right-title">{title}</h2>
+        <div className="devBlock-content-category">
+          <h2 className="devBlock-content-category-text">0{nb + 1} - <span>{category}</span></h2>
+        </div>
         <div className="devBlock-content-right-info">
           <div className="devBlock-content-right-info-images">
             {imgs.map((img, key) => (
