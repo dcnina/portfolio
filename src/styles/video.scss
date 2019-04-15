@@ -1,5 +1,13 @@
 .video {
-  padding-top: 250px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 140px;
+ 
+  &-content{
+    max-width: 1024px;
+    margin: auto;
+    padding-top: 100px;
+  }
 }
 
 .videoBlock:nth-child(odd) {
@@ -8,7 +16,8 @@
 
 .videoBlock:nth-child(odd) .videoBlock-titles-title {
   margin-left: -5px;
-  transform: translate3d(240px, 0, 0);
+  transform: translate3d(42px, 0, 0);
+  text-align: right;
 }
 
 .videoBlock:nth-child(odd) .videoBlock-titles-desc {
@@ -20,7 +29,6 @@
 .videoBlock {
   display: flex;
   max-width: 90vw;
-  padding-left: 70px;
   padding-bottom: 50px;
   padding-top: 50px;
   flex-wrap: wrap;
@@ -32,14 +40,18 @@
   &-titles {
     flex-basis: 40%;
     &-title {
-      font-weight: 500;
-      font-size: 90px;
+      font-weight: 900;
+      font-size: 70px;
       color: $grey;
-      margin-left: -240px;
+      font-style: italic;
+      margin-left: -42px;
+      position: relative;
     }
     &-desc {
       margin-top: 25px;
       margin-left: 20px;
+      font-weight: 300;
+      font-size: 18px;
     }
   }
 }

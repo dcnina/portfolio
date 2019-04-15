@@ -1,11 +1,17 @@
 import React, { Component } from "react";
 import Line from "../components/Line";
+import { NavLink } from "react-router-dom";
 
 class Home extends Component {
+
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <div className="home">
-        <Line />
+      <div className="home-content">
         <div className="home-header">
           <div className="home-title">
             <div className="home-title-formes">
@@ -38,40 +44,49 @@ class Home extends Component {
         </div>
         <div className="home-project">
           <div className="home-project-1">
-            <img alt="photography" className="home-project-image" src={require("../assets/projet-1.png")}/>
+          <div className="home-project-content">
+            <NavLink to="/photography"><img alt="photography" className="home-project-image" src={require("../assets/projet-1.png")}/></NavLink>
             <div className="home-project-text">
               <p className="home-project-1-text-title home-project-text-right">naivetés partagées</p>
               <p className="home-project-1-text-description">Et quoniam inedia gravi adflictabantur, locum petivere Paleas nomine.</p>
             </div>
-            {/* <div className="home-project-1-cat">
-                <p className="home-project-1-cat-text">01 - photography</p>
-                </div> */}
+            </div>
+            <div className="devBlock-content-category">
+              <h2 className="devBlock-content-category-text">02 - <span>video</span></h2>
+            </div>
           </div>
           <div className="home-project-2">
-            <img alt="micro-complice" className="home-project-image" src={require("../assets/projet-2.png")}/>
+
+          <div className="home-project-content">
+          <NavLink to="/video"><img alt="micro-complice" className="home-project-image" src={require("../assets/projet-2.png")}/></NavLink>
             <div className="home-project-text home-project-left">
               <p className="home-project-2-text-title home-project-text-left">micro complice</p>
               <div className="home-project-2-text-description"><p>
-                Et quoniam inedia gravi adflictabantur, locum petivere Paleas nomine.
+              Short film directed in 48h during a week-end organized by 803Z and De l’autre Côté with the theme «Magic».
               </p></div>
             </div>
-            {/* <div className="home-project-2-cat">
-                <p className="home-project-2-cat-text"> 02 - video</p>
-                </div>   */}
+            </div>
+            <div className="devBlock-content-category">
+              <h2 className="devBlock-content-category-text">02 - <span>video</span></h2>
+            </div>
           </div>
           <div className="home-project-3">
-            <img alt="app-pulp-festival" className="home-project-image" src={require("../assets/pulp.png")}/>
+            <div className="home-project-content">
+            <NavLink to="/dev"><img alt="app-pulp-festival" className="home-project-image" src={require("../assets/pulp.png")}/></NavLink>
             <div className="home-project-text">
               <p className="home-project-3-text-title home-project-text-right">pulp festival</p>
               <div className="home-project-3-text-description"><p>
-                Et quoniam inedia gravi adflictabantur, locum petivere Paleas nomine.
+                Application developped for the strip cartoon festival of La Ferme du Buisson, PULP Festival.
               </p></div>
             </div>
-            {/* <div className="home-project-3-cat">
-                <p className="home-project-3-cat-text">03 - dev app</p>
-                </div> */}
+            </div>
+            <div className="devBlock-content-category">
+              <h2 className="devBlock-content-category-text">02 - <span>video</span></h2>
+            </div>
           </div>
         </div>
+        </div>
+        <div className="dev-line"></div>
       </div>
     );
   }

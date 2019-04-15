@@ -3,6 +3,10 @@ import Line from "../components/Line";
 import PhotoList from "../components/PhotoList";
 
 class Photo extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <div className="photo">
