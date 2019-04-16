@@ -47,12 +47,12 @@ class Home extends Component {
           <div className="home-project-content">
             <NavLink to="/photography"><img alt="photography" className="home-project-image" src={require("../assets/projet-1.png")}/></NavLink>
             <div className="home-project-text">
-              <p className="home-project-1-text-title home-project-text-right">naivetés partagées</p>
-              <p className="home-project-1-text-description">Et quoniam inedia gravi adflictabantur, locum petivere Paleas nomine.</p>
+              <p className="home-project-1-text-title home-project-text-right">Toi mon toit</p>
+              <p className="home-project-1-text-description">Series of pictures of roofs.<br />In Portugal and Bretagne.</p>
             </div>
             </div>
             <div className="devBlock-content-category">
-              <h2 className="devBlock-content-category-text">02 - <span>video</span></h2>
+              <h2 className="devBlock-content-category-text">01 - <span>photo</span></h2>
             </div>
           </div>
           <div className="home-project-2">
@@ -81,7 +81,7 @@ class Home extends Component {
             </div>
             </div>
             <div className="devBlock-content-category">
-              <h2 className="devBlock-content-category-text">02 - <span>video</span></h2>
+              <h2 className="devBlock-content-category-text">03 - <span>dev</span></h2>
             </div>
           </div>
         </div>

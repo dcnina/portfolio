@@ -16,7 +16,10 @@ export default [
   {
     title: "listen to the weather",
     description:
-    "Listen to the weather is a website made during my first year in IMAC, we were free to do anything we want.This website play some music for you according to the city seized. There is some animations depending of the weather of the city.",
+    `
+Listen to the weather is a website made during my first year in IMAC, we were free to do anything we want.
+
+This website play some music for you according to the city seized. There is some animations depending of the weather of the city.`,
     img: [
       "listen-accueil",
       "listen-neige"

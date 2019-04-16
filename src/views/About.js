@@ -14,15 +14,10 @@ class About extends Component {
         <div className="about-description">
           <p className="about-description-hello">Hello !</p>
           <p className="about-description-text">
-            Et quoniam inedia gravi adflictabantur, locum petivere Paleas
-            nomine, vergentem in mare, valido muro firmatum, ubi conduntur nunc
-            usque commeatus distribui militibus omne latus Isauriae
-            defendentibus adsueti.Et quoniam inedia gravi adflictabantur, locum
-            petivere Paleas nomine et quoniam inedia gravi adflictabantur, locum
-            petivere Paleas nomine.
+            I'm Nina, I'm currently studying in the multimedia engineering school, IMAC, in Paris. I love experiment images and sounds, in all these forms: video, photography and graphic design.<br/><br/>I'm currently looking for an internship for 2 months from june 2019.
           </p>
           <p className="about-description-mail">
-            Contact me : dcninaa@gmail.com
+            Contact me : <a href="mailto: dcninaa@gmail.com">dcninaa@gmail.com</a>
           </p>
         </div>
         <div className="about-icons">

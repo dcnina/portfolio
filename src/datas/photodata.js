@@ -1,11 +1,11 @@
 export default [
     {
-      title: "naïvetés partagées",
-      img: ["toits", "toits", "toits"]
+        title: "Toi mon toit",
+        img: ["toits", "toits2", "toits3"]
     },
     {
-        title: "naïvetés partagées 2",
-        img: ["toits", "toits"]
+        title: "Furtivement vôtre",
+        img: ["furtif1", "furtif3", "furtif2"]
     },
   ];
   
