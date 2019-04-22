@@ -18,9 +18,9 @@ class PhotoList extends Component {
       this.setState({
         id: this.state.id - 1
       });
-    } 
+    }
   }
-  
+
   nextCategory() {
     if (this.state.id < photoData.length - 1) {
       this.setState({
@@ -34,8 +34,6 @@ class PhotoList extends Component {
       <div className="photoList">
         <h1 className="photoList-title">{photoData[this.state.id].title}</h1>
         <HorizontalScroll>
-          {/* <div className="photoList-square" /> */}
-          {/* <img src="" className="photoList-square"/> */}
           {photoData[this.state.id].img.map((elm, key) => (
             <img
               key={key}

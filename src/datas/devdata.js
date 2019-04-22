@@ -19,7 +19,7 @@ export default [
     `
 Listen to the weather is a website made during my first year in IMAC, we were free to do anything we want.
 
-This website play some music for you according to the city seized. There is some animations depending of the weather of the city.`,
+This website play some music for you according to the city you're looking for. There are some animations depending on the weather of the city.`,
     img: [
       "listen-accueil",
       "listen-neige"
@@ -32,7 +32,7 @@ This website play some music for you according to the city seized. There is some
   {
     title: "run in the valley",
     description:
-    "Run in the valley is a game made during my second year in IMAC in OpenGL and C++. This game is inspired by the game «Monument Val- ley».",
+    "Run in the valley is a game made during my second year of IMAC in OpenGL and C++. This game is inspired by the game «Monument Valley».",
     img: [
       "RunInTheValley_1",
       "RunInTheValley_2",

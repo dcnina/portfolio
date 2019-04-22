@@ -12,7 +12,7 @@ const DevBlockProject = ({ nb, title, imgs, description, links, category })=> (
         <div className="devBlock-content-right-info">
           <div className="devBlock-content-right-info-images">
             {imgs.map((img, key) => (
-              <img alt={key} src={require(`../assets/${img}.png`)} />
+              <img key={key} alt={key} src={require(`../assets/${img}.png`)} />
             ))}
           </div>
           <div className="devBlock-content-right-info-text">
@@ -20,13 +20,13 @@ const DevBlockProject = ({ nb, title, imgs, description, links, category })=> (
             <div className="devBlock-content-right-info-text-links">
               <div className="devBlock-content-right-info-text-links-items">
                 {links.map((link, key) => (
-                  <a href={link.link} rel="noopener noreferrer" target="_blank">{link.name}</a>
+                  <a key={key} href={link.link} rel="noopener noreferrer" target="_blank">{link.name}</a>
                 ))}
               </div>
               <div className="devBlock-content-right-info-text-links-line"></div>
             </div>
           </div>
-  </div>
+        </div>
       </div>
     </div>
   </div>

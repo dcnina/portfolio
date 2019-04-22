@@ -6,8 +6,8 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./views/Home.jsx";
 import Video from "./views/Video";
 import Photo from "./views/Photo";
-import Menu from "./components/Menu";
-import About from "./views/About";
+import Menu from "./components/Menu.jsx";
+import About from "./views/About.jsx";
 import Dev from "./views/Dev.jsx";
 
 const Root = () => (

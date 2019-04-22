@@ -30,7 +30,7 @@ class Home extends Component {
                 x="0"
                 y="120"
                 fill="none"
-                stroke-width="2.5"
+                strokeWidth="2.5"
                 stroke="#E9C9BB"
                 className="title-h1"
               >
@@ -48,7 +48,7 @@ class Home extends Component {
             <NavLink to="/photography"><img alt="photography" className="home-project-image" src={require("../assets/projet-1.png")}/></NavLink>
             <div className="home-project-text">
               <p className="home-project-1-text-title home-project-text-right">Toi mon toit</p>
-              <p className="home-project-1-text-description">Series of pictures of roofs.<br />In Portugal and Bretagne.</p>
+              <p className="home-project-1-text-description">Series of pictures about roofs.<br />Taken In Portugal and Bretagne.</p>
             </div>
             </div>
             <div className="devBlock-content-category">
@@ -62,7 +62,7 @@ class Home extends Component {
             <div className="home-project-text home-project-left">
               <p className="home-project-2-text-title home-project-text-left">micro complice</p>
               <div className="home-project-2-text-description"><p>
-              Short film directed in 48h during a week-end organized by 803Z and De l’autre Côté with the theme «Magic».
+              Short film directed in 48h during a week-end organized by 803Z and De l’autre Côté with the theme «Magic».
               </p></div>
             </div>
             </div>
