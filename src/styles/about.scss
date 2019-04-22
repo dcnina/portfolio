@@ -1,45 +1,80 @@
 .about{
-    width:100vw;
-    height: 100vh;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 140px;
+  overflow-x: hidden;
+
+  @media (max-width: 690px) {
+    grid-template-columns: 1fr;
+  }
+
+  &-content{
     display: flex;
     align-items: center;
     justify-content: center;
 
+    @media (max-width: 1000px) {
+      flex-direction: column;
+    }
+  }
+
+  &-image{
+    width: 400px;
+    height: 400px;
+
+
+    @media (max-width: 1000px) {
+      width: 250px;
+      height: 250px;
+    }
+  }
+
+  &-description{
+    padding-left: 30px;
+    padding-right: 40px;
+    flex-basis: 40%;
+    &-hello{
+      font-weight: 900;
+      font-size: 40px;
+      color: $saumon;
+    }
+    &-text{
+      font-size: 22px;
+      font-weight: 400;
+      padding-top: 15px;
+
+      @media (max-width: 766px) {
+        font-size: 17px;
+      }
+    }
+    &-mail{
+      font-size: 22px;
+      font-weight: 400;
+      padding-top: 15px;
+      color: $grey;
+    }
+  }
+
+  &-icons{
+    position: absolute;
+    right: 80px;
+    display: flex;
+    flex-direction: column;
+
+
+    @media (max-width: 766px) {
+      position: initial;
+      flex-direction: row;
+      width: 300px;
+      justify-content: space-between;
+      margin-top: 35px;
+    }
+
     &-image{
-        width: 400px;
-        height: 400px;
+      width: 30px;
+      height: 30px;
+      margin: 10px 0 10px 0;
     }
-    &-description{
-        padding-left: 30px;
-        padding-right: 40px;
-        flex-basis: 40%;
-        &-hello{
-            font-weight: 900;
-            font-size: 40px;
-            color: $saumon;
-        }
-        &-text{
-            font-size: 22px;
-            font-weight: 400;
-            padding-top: 15px;
-        }
-        &-mail{
-            font-size: 22px;
-            font-weight: 400;
-            padding-top: 15px;
-            color: $grey;
-        }
-    }
-    &-icons{
-        position: absolute;
-        right: 80px;
-        display: flex;
-        flex-direction: column;
-        
-        &-image{
-            width: 30px;
-            height: 30px;
-            margin: 10px 0 10px 0;
-        }
-    }
+  }
 }
