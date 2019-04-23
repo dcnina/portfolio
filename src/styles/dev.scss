@@ -84,6 +84,7 @@
 
         @media (max-width: 1024px) {
           max-width: 480px;
+          margin-right: 0px;
         }
 
         @media (max-width: 680px) {
@@ -136,6 +137,11 @@
             @media (max-width: 1024px) {
               margin-left: 0;
               margin-right: 25px;
+            }
+
+            @media (max-width: 680px) {
+              margin-left: 0;
+              margin-right: 0px;
             }
 
             &-links {
@@ -317,7 +323,7 @@
 
         @media (max-width: 690px) {
           position: initial;
-          margin-left: 50px;
+          // margin-left: 50px;
           margin-bottom: 35px;
           transform: translate3d(0, 0, 0) rotate(0);
         }
