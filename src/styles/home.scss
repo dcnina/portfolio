@@ -4,6 +4,7 @@
   display: grid;
   grid-template-columns: 1fr 140px;
   overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
 
   &-header{
     height: 100vh;
