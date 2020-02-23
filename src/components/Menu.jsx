@@ -21,33 +21,18 @@ class Menu extends Component {
   render() {
     return (
       <div className="menu">
-        <NavLink to="/">
-          <div className="menu-name">nina de castro</div>
-        </NavLink>
-
-        <div
-          className="menu-button"
-          onClick={this.toggleMenu}>
+        <div>
+          <NavLink to="/">
+            <div className="menu-name">nina de castro</div>
+          </NavLink>
         </div>
 
         <div className={"menu-bar" + (this.state.open ? ' open' : '')}>
           <NavLink
             activeclassname="menu-bar-cat_active"
             onClick={this.toggleMenu}
-            to="/photography">
-            <div className="menu-bar-cat">photography</div>
-          </NavLink>
-          <NavLink
-            activeclassname="menu-bar-cat_active"
-            onClick={this.toggleMenu}
-            to="/video">
-            <div className="menu-bar-cat">video</div>
-          </NavLink>
-          <NavLink
-            activeclassname="menu-bar-cat_active"
-            onClick={this.toggleMenu}
-            to="/dev">
-            <div className="menu-bar-cat">dev</div>
+            to="/">
+            <div className="menu-bar-cat">works</div>
           </NavLink>
           <NavLink
             activeclassname="menu-bar-cat_active"
@@ -55,6 +40,9 @@ class Menu extends Component {
             to="/about">
             <div className="menu-bar-cat">about</div>
           </NavLink>
+          <a href="mailto: dcninaa@gmail.com">
+            <div className="menu-bar-cat">contact</div>
+          </a>
         </div>
       </div>
     );

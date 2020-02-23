@@ -1,114 +1,47 @@
 .menu{
   position:fixed;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 25px 45px;
-  width: 100%;
+  display: flex;  
   z-index: 6;
-
-  @media (max-width: 660px) {
-    padding: 25px 45px 25px 30px;
-  }
+  top: 0;
+  flex-direction: row;
+  // border: 1px solid black;
+  height: 100%;
 
   &-name{
-    color: $saumon;
-    font-weight: 900;
+    position: absolute;
+    width: 180px;
+    height: 39px;
+    font-style: normal;
+    font-weight: bold;
     font-size: 30px;
-
-    @media (max-width: 702px) {
-      font-size: 20px;
-    }
+    line-height: 39px;
+    text-align: center;
+    margin: 20px 0 0 25px;
+    background-color: white;
   }
 
-  &-button{
-    display: none;
-    width: 42px;
-    height: 15px;
-    background: linear-gradient(90deg, #e9c9bb 100%, white 0%) no-repeat center/100% 11%;
-    position: relative;
-
-    &:before,
-    &:after {
-      content: '';
-      display: block;
-      width: 100%;
-      height: 2px;
-      background: $saumon;
-      position: absolute;
-      left: 0;
-    }
-
-    &:before {
-      top: 0;
-      transition: all 0.2s ease;
-      transform: translate3d(15px, 0, 0);
-    }
-
-    &:after {
-      bottom: 0;
-    }
-
-    &:hover {
-      cursor: pointer;
-      &:before {
-        transform: translate3d(0, 0, 0);
-      }
-    }
-
-    @media (max-width: 660px) {
-      display: initial;
-    }
+  &-name:hover{
+      color: black;
   }
 
   &-bar{
     display: flex;
-    width: 350px;
-    justify-content: space-around;
-    font-weight: 300;
-    font-size: 20px;
-    color: $grey;
-    margin-right: 16px;
+    flex-direction: column;
+    justify-Content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
 
-    @media (max-width: 702px) {
-      font-size: 18px;
-      margin-right: 0px;
-    }
+    &-cat{
+      transform: rotate(-90deg);
+      -webkit-transform: rotate(-90deg);
+      -moz-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+      -o-transform: rotate(-90deg);
+      filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 
-    @media (max-width: 660px) {
-      position: absolute;
-      font-size: 25px;
-      flex-direction: column;
-      text-align: right;
-      background: $saumon;
-      width: 56%;
-      height: 100vh;
-      top: 0;
-      right: 0;
-      padding: 10px 20px 25px 25px;
-      justify-content: flex-start;
-      transform: translate3D(100%, 0, 0);
-      transition: all 0.3s ease-out;
-    }
-
-    &.open {
-      transform: translate3D(0, 0, 0);
-    }
-
-    a.active {
-      @media (max-width: 660px) {
-        color: $beige !important;
-      }
-    }
-
-    &-cat {
-      @media (max-width: 660px) {
-        margin: 15px 0;
-      }
-
-      &:hover{
-        cursor: pointer;
-      }
+      padding: 41px 5px 20px 5px;
+      background-color: white;
     }
   }
 }

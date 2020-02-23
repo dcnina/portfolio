@@ -43,6 +43,7 @@
     "react-app-polyfill": "^0.2.2",
     "react-dev-utils": "^8.0.0",
     "react-dom": "^16.8.4",
+    "react-mailto": "^0.4.0",
     "react-router-dom": "^4.4.0",
     "react-scroll-horizontal": "^1.6.2",
     "resolve": "1.10.0",

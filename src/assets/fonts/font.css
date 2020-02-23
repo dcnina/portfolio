@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'ILoveGlitter';
+  src: url('ILoveGlitter.eot');
+  src: url('ILoveGlitter.eot?#iefix') format('embedded-opentype'),
+       url('ILoveGlitter.svg#ILoveGlitter') format('svg'),
+       url('ILoveGlitter.ttf') format('truetype'),
+       url('ILoveGlitter.woff') format('woff'),
+       url('ILoveGlitter.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

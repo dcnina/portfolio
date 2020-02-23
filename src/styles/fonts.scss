@@ -1,17 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i&display=swap&subset=latin-ext');
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'IBM Plex Sans Condensed',;
+    font-weight: 400;
 }
 
-.title-h1{
-    font-weight: 900;
-    font-size: 125px;
-    color: $saumon;
-}
-
-.title-h3{
-    font-weight: 100;
-    font-size: 33px;
-    color: $grey;
+@font-face {
+    font-family: 'ILoveGlitter';
+    src: url('./assets/fonts/ILoveGlitter.eot');
+    src: url('./assets/fonts/ILoveGlitter.eot?#iefix') format('embedded-opentype'),
+         url('./assets/fonts/ILoveGlitter.svg#ILoveGlitter') format('svg'),
+         url('./assets/fonts/ILoveGlitter.ttf') format('truetype'),
+         url('./assets/fonts/ILoveGlitter.woff') format('woff'),
+         url('./assets/fonts/ILoveGlitter.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
 }

@@ -4,8 +4,7 @@ class Line extends Component {
   render() {
     return (
       <div className="line">
-        <div className="line-right" />
-        <div className="line-bottom" />
+        <div className="line-left" />
       </div>
     );
   }

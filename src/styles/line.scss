@@ -1,17 +1,18 @@
-.line-right{
-    width: 2.5px;
+.line-left{
     height:100%;
-    background-color: $saumon;
+    background-color: black;
     position: absolute;
-    right: 140px;
-    top: 0;
+    width: 2px;
+    left: 43px;
+    top: 0px;
 }
 
-.line-bottom{
-    height: 2.5px;
+.line-horizon{
+    height: 2px;
     width:100%;
-    background-color: $saumon;
+    background-color: black;
     position: absolute;
-    bottom: 20px;
-    left:0;
+    left:350px;
+    z-index: 1;
+    top: 35%;
 }
