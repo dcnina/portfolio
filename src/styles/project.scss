@@ -25,15 +25,31 @@
             justify-content: center;
             z-index: 6;
         }
+
         &-header{
             display: flex;
             flex-direction: row;
 
+            &-maincontent{
+                position:relative; z-index:10;
+            }
+            
             &-title{
                 font-family: I Love Glitter;
                 font-size: 45px;
                 padding-left: 75px;
                 padding-top: 12px;
+                position:relative; z-index:10;
+                background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=a3a3a3&density=8&opacity=15');
+            }
+
+            &-line-horizon{
+                height: 2px;
+                width: 100%;
+                background-color: black;
+                position: absolute;
+                left: 780px;
+                z-index: 1;
             }
         }
 
@@ -55,7 +71,7 @@
             justify-content: center;
             align-items: center;
         }
-        
+
         &-extra{
             display: grid;
             grid-template-columns: repeat(2, 1fr);

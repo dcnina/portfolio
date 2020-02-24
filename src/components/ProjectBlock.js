@@ -33,10 +33,10 @@ class ProjectBlock extends Component {
             <div className="project-content">
                 <div className="project-content-top">
                     <div className="project-content-header">
-                        <div dangerouslySetInnerHTML={{ __html: data.mainContent }} />
-                        <p className="project-content-header-title" id="title">{data.title}</p>
+                        <div className="project-content-header-maincontent" dangerouslySetInnerHTML={{ __html: data.mainContent }} />    
                         <div className="line">
-                            <div className="line-project" />
+                            <p className="project-content-header-title" id="title">{data.title}</p>
+                            <div className="project-content-header-line-horizon" />
                         </div>
                     </div>
                     <div className="project-content-infos">
