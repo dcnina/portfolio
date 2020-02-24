@@ -4,8 +4,17 @@ import projectsdata from "../datas/projectsdata";
 import Footer from "../components/Footer";
 import Line from "../components/Line";
 import ExtraBlock from "./ExtraBlock";
+import ScrollToTop from "./ScrollToTop";
 
 class ProjectBlock extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+      }
+    
+      componentDidUpdate() {
+        window.scrollTo(0,0);
+      }
+
     prevCategory = () => {
     var idprev = parseInt(this.props.id) - 1;
     var route = "/work/" + idprev;
@@ -28,8 +37,9 @@ class ProjectBlock extends Component {
     let data = projectsdata[this.props.id];
         
     return (
+        
         <div className="project">
-            
+            <ScrollToTop/>
             <div className="project-content">
                 <div className="project-content-top">
                     <div className="project-content-header">
