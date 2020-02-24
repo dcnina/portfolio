@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import Line from "../components/Line";
 import Footer from "../components/Footer";
-import { NavLink } from "react-router-dom";
+import WorkBlock from "../components/WorkBlock";
+import homedata from "../datas/homedata";
 
 class Home extends Component {
 
@@ -9,15 +10,34 @@ class Home extends Component {
     window.scrollTo(0, 0);
   }
 
+  componentDidUpdate() {
+    window.scrollTo(0,0);
+  }
+
+
   render() {
     return (
       <div className="home">
         <div className="home-works">
+          <div className="home-works-content">
+            {homedata.map((elm, key) => (
+              <WorkBlock
+                key={key}
+                id={elm.id}
+                title={elm.title}
+                category={elm.category}
+                img={elm.img}
+              />
+            ))}
+          </div>
         </div>
         <div className="home-more">
           <div>
             <div>
-              <p className="home-more-title">more</p>
+                <div className="home-more-line">
+                  <p className="home-more-title">more</p>
+                  <div className="home-more-line-horizon" />
+                </div>
             </div>
             <div className="home-more-tab">
               <div className="home-more-tab-music">

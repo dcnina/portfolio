@@ -18,11 +18,18 @@ class Menu extends Component {
     })
   }
 
+  scrollToTop() {
+    console.log("COUCOU");
+    
+    window.scrollTo(0, 0);
+  }
+
+
   render() {
     return (
       <div className="menu">
         <div>
-          <NavLink to="/">
+          <NavLink onClick={this.scrollToTop} to="/">
             <div className="menu-name">nina de castro</div>
           </NavLink>
         </div>
@@ -40,7 +47,7 @@ class Menu extends Component {
             to="/about">
             <div className="menu-bar-cat">about</div>
           </NavLink>
-          <a href="mailto: dcninaa@gmail.com">
+          <a href="mailto: dcninaa@gmail.com" target="_blank">
             <div className="menu-bar-cat">contact</div>
           </a>
         </div>

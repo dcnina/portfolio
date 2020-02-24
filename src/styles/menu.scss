@@ -13,11 +13,11 @@
     height: 39px;
     font-style: normal;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 39px;
     text-align: center;
-    margin: 20px 0 0 25px;
-    background-color: white;
+    margin: 20px 0 0 12px;
+    background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=a3a3a3&density=8&opacity=15');
   }
 
   &-name:hover{
@@ -41,7 +41,7 @@
       filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 
       padding: 41px 5px 20px 5px;
-      background-color: white;
+      background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=a3a3a3&density=8&opacity=15');
     }
   }
 }

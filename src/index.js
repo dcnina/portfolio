@@ -6,14 +6,17 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./views/Home.jsx";
 import Menu from "./components/Menu.jsx";
 import About from "./views/About.jsx";
-import Footer from "./components/Footer.js"
+import Project from "./views/Project.jsx";
+import ScrollToTop from "./components/ScrollToTop";
 
 const Root = () => (
   <BrowserRouter>
+    <ScrollToTop/>
     <Menu />
     <Switch>
       <Route exact path="/" component={Home} />
       <Route exact path="/about" component={About} />
+      <Route exact path="/project/:id" component={Project} />
     </Switch>
   </BrowserRouter>
 );

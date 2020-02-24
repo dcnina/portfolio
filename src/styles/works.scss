@@ -1,0 +1,77 @@
+.home{
+    &-works{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &-content{
+            width: 600px;
+        }
+    }
+}
+
+.workBlock:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.workBlock:nth-child(even) .workBlock-desc {
+    margin: 0px 88px 68px 0px;
+    &-line-horizon{
+        left: -232px;
+    }
+}
+
+.workBlock{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 98vh;
+
+    &-img{
+        &-img{
+            width: 300px;
+            height: 300px;
+            position:relative; z-index:10;
+        }
+    }
+
+    &-desc{
+        margin: 0px 0px 68px 88px;
+
+        &-line-horizon{
+            height: 2px;
+            width: 100%;
+            background-color: black;
+            position: absolute;
+            left: 240px;
+            z-index: 1;
+            margin-top: -22px;
+        }
+
+        &-title{
+            font-family: I Love Glitter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 28px;
+            line-height: 42px;
+            text-align: center;
+            background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=a3a3a3&density=8&opacity=15');
+            padding: 0 6px 0 6px;
+            position:relative; z-index:10;
+        }
+
+        &-cat{
+            font-weight: 300;
+            font-size: 11px;
+            text-align: center;
+        }
+
+    }
+
+    &-desc:hover{
+
+        &-cat:hover{
+            color: black;
+        }
+    }
+}
