@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import projectsdata from "../datas/projectsdata";
 
 const ExtraBlock = props => (

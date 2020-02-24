@@ -8,14 +8,14 @@ import ExtraBlock from "./ExtraBlock";
 class ProjectBlock extends Component {
     prevCategory = () => {
     var idprev = parseInt(this.props.id) - 1;
-    var route = "/project/" + idprev;
-    return (this.props.id > 0) ? route : "/project/"+this.props.id
+    var route = "/work/" + idprev;
+    return (this.props.id > 0) ? route : "/work/"+this.props.id
     }
 
     nextCategory = () => {
     var idnext = parseInt(this.props.id) + 1;
-    var route = "/project/" + idnext;
-    return (this.props.id < projectsdata.length - 1) ? route : "/project/"+this.props.id
+    var route = "/work/" + idnext;
+    return (this.props.id < projectsdata.length - 1) ? route : "/work/"+this.props.id
     }
 
     extraVisibility = () => {

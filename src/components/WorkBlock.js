@@ -5,7 +5,7 @@ const WorkBlock = props => (
     
         <div className="workBlock">
             <div className="workBlock-img">
-                <NavLink to={`project/${props.id}`}>
+                <NavLink to={`work/${props.id}`}>
                     <img className="workBlock-img-img" alt="work-img" src={require(`../assets/${props.img}.png`)}/>
                 </NavLink>
             </div>
