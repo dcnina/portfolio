@@ -3,6 +3,7 @@ import Line from "../components/Line";
 import Footer from "../components/Footer";
 import WorkBlock from "../components/WorkBlock";
 import homedata from "../datas/homedata";
+import ScrollToTop from "../components/ScrollToTop";
 
 class Home extends Component {
 
@@ -18,6 +19,7 @@ class Home extends Component {
   render() {
     return (
       <div className="home">
+        <ScrollToTop/>
         <div className="home-works">
           <div className="home-works-content">
             {homedata.map((elm, key) => (

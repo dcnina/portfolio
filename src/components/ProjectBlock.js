@@ -15,7 +15,6 @@ class ProjectBlock extends Component {
     componentDidUpdate() {
         window.scrollTo(0,0);
     }
-
     
     getObjectKeyIndex = (obj, keyToFind) =>{
         var i = 0, key;
@@ -31,13 +30,13 @@ class ProjectBlock extends Component {
     prevCategory = () => {
         var id = this.getObjectKeyIndex(projectsdata, this.props.name);
         var idprev = parseInt(id) - 1;
-        return (id > 0) ? "/"+projectkeys[idprev] : "/"+this.props.name
+        return (id > 0) ? "/"+projectkeys[idprev] : "/"+projectkeys[projectkeys.length - 1]
     }
 
     nextCategory = () => {
         var id = this.getObjectKeyIndex(projectsdata, this.props.name);
         var idnext = parseInt(id) + 1;
-        return (id < projectkeys.length - 1) ? "/"+projectkeys[idnext] : "/"+this.props.name
+        return (id < projectkeys.length - 1) ? "/"+projectkeys[idnext] : "/"+projectkeys[0]
     }
 
     extraVisibility = () => {

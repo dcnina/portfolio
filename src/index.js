@@ -11,13 +11,13 @@ import ScrollToTop from "./components/ScrollToTop";
 
 const Root = () => (
   <BrowserRouter>
-    <ScrollToTop/>
     <Menu />
     <Switch>
       <Route exact path="/" component={Home} />
       <Route path="/about" component={About} />
       <Route path="/:name" component={Project} />
     </Switch>
+    <ScrollToTop/>
   </BrowserRouter>
 );
 

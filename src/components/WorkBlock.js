@@ -1,9 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ScrollToTop from "../components/ScrollToTop";
 
 const WorkBlock = props => (
     
         <div className="workBlock">
+            <ScrollToTop/>
             <div className="workBlock-img">
                 <Link to={`/${props.name}`}>
                     <img className="workBlock-img-img" alt="work-img" src={require(`../assets/${props.img}.png`)}/>
