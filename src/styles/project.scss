@@ -21,9 +21,6 @@
         &-top, &-extra{
             height: 100vh;
             z-index: 3;
-            @media (max-width: 900px){
-                height: 97vh;
-            }
         }
 
         &-top{
@@ -175,7 +172,7 @@
         width: 100%;
 
         @media (max-width: 900px){
-            bottom: 18px; 
+            bottom: 12px; 
             font-size: 20px;
         }
 
