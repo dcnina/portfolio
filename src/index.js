@@ -8,6 +8,7 @@ import Menu from "./components/Menu.jsx";
 import About from "./views/About.jsx";
 import Project from "./views/Project.jsx";
 import ScrollToTop from "./components/ScrollToTop";
+import SideBar from "./components/Sidebar";
 
 const Root = () => (
   <BrowserRouter>

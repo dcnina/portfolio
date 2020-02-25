@@ -5,7 +5,7 @@
     flex-direction: column;
     width: 100%;
     height: 100%;
-    position: relative;   
+    position: relative;
 
     &-content{
         display: flex;
@@ -13,6 +13,10 @@
         justify-content: center;
         width: 900px;
         margin: 0 175px 0 175px;
+        @media (max-width: 900px){
+            width: 650px;
+            z-index: 1;
+        }
 
         &-top, &-extra{
             height: 100vh;
@@ -34,9 +38,33 @@
         &-header{
             display: flex;
             flex-direction: row;
+            @media (max-width: 900px){
+                flex-direction: column;
+                align-items: center;
+            }
 
             &-maincontent{
                 position:relative; z-index:10;
+
+                &-soundcloud{
+                    @media (max-width: 900px){
+                        width: 350px;
+                        height: auto;
+                    }
+                }
+
+                &-video{
+                    @media (max-width: 900px){
+                        width: 320px;
+                        height: 180px;
+                    } 
+                }
+                &-videoextra{
+                    @media (max-width: 900px){
+                        width: 220px;
+                        height: 123.75px;
+                    } 
+                }
             }
 
             &-title{
@@ -46,6 +74,11 @@
                 padding-top: 12px;
                 position:relative; z-index:10;
                 background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=a3a3a3&density=8&opacity=15');
+                @media (max-width: 900px) {
+                    font-size: 38px;
+                    padding-left: 60px;
+                }
+
             }
             &-line-horizon{
                 height: 2px;
@@ -55,11 +88,19 @@
                 left: 810px;
                 margin-top: 40px;
                 z-index: 1;
+
+                @media (max-width:900px){
+                    left: 170px;
+                }
             }
         }
 
         &-infos{
             margin-top: 30px;
+            @media (max-width: 900px) {
+                padding: 0 160px 0px 160px;
+                width: auto;
+            }
             &-desc{
                 text-align: justify;
             }
@@ -87,12 +128,29 @@
             position: relative; z-index: 10;
             height: 82%;
 
+            @media (max-width: 900px) {
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+                justify-content: center;
+                padding-top: 50px;
+            }
+
             &-element{
-                
-                &-1 { grid-area: 1 / 2 / 2 / 3; }
-                &-3 { grid-area: 2 / 2 / 3 / 3; }
-                &-0 { grid-area: 1 / 1 / 2 / 2; }
-                &-2 { grid-area: 2 / 1 / 3 / 2; }
+                &-0, &-1, &-2, &-3 { padding-bottom: 10px; }
+        
+                &-1 { 
+                    grid-area: 1 / 2 / 2 / 3; 
+                }
+                &-3 { 
+                    grid-area: 2 / 2 / 3 / 3;
+                 }
+                &-0 { 
+                    grid-area: 1 / 1 / 2 / 2;
+                 }
+                &-2 { 
+                    grid-area: 2 / 1 / 3 / 2;
+                 }
             }
         }
     }
@@ -113,6 +171,11 @@
         z-index: 8;
         width: 100%;
 
+        @media (max-width: 900px){
+            bottom: 12px; 
+            font-size: 20px;
+        }
+
         &-item{
             &--prev:hover, &--next:hover{
                 color: $green;
@@ -122,13 +185,21 @@
                 padding-left: 5px;
                 padding-right: 50%;
                 background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=a3a3a3&density=8&opacity=15');
+                @media (max-width: 900px){
+                    padding-left: 0;
+                    padding-right: 5px; 
+                }
             }
   
             &--next{
                 padding-right: 5px;
                 padding-left: 50%;
                 background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=a3a3a3&density=8&opacity=15');
-          }
+                @media (max-width: 900px){
+                    padding-left: 5px;
+                    padding-right: 0; 
+                }
+            }
         }
       }
 
