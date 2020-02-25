@@ -15,8 +15,8 @@ const Root = () => (
     <Menu />
     <Switch>
       <Route exact path="/" component={Home} />
-      <Route exact path="/about" component={About} />
-      <Route exact path="/:name" component={Project} />
+      <Route path="/about" component={About} />
+      <Route path="/:name" component={Project} />
     </Switch>
   </BrowserRouter>
 );
