@@ -14,6 +14,9 @@
 
     &-line{
       width: 100px;
+      @media (max-width: 900px){
+        
+      }
     }
 
     &-line-horizon{
@@ -24,6 +27,9 @@
       left: 240px;
       z-index: 1;
       margin-top: -22px;
+      @media (max-width: 900px){
+        left: -150px;
+      }
     }
 
     &-title{
@@ -34,6 +40,10 @@
       position: relative;
       z-index: 10;
       right: -550px;
+
+      @media (max-width: 900px){
+        right: -15px;
+      }
     }
 
     &-tab{
@@ -41,6 +51,9 @@
       flex-direction: row;
       align-content: space-around;
       justify-content: center;
+      @media (max-width: 900px){
+        flex-wrap: wrap;
+      }
 
       &-title{
         font-family: 'ILoveGlitter';
@@ -51,6 +64,10 @@
         padding: 30px;
         font-weight: 400;
         font-size: 15px;
+        @media (max-width: 900px){
+          width: 180px;
+          font-size: 12px;
+        }
       }
     }
   }

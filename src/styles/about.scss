@@ -6,6 +6,9 @@
   left: 350px;
   z-index: 1;
   margin-top: -25px;
+  @media (max-width: 900px){
+    left: -130px;
+  }
 }
 
 .about{
@@ -25,8 +28,11 @@
     justify-content: center;
     width: 35%;
     z-index: 6;
-  
-
+    @media (max-width: 900px){
+      padding: 0 30px 0px 30px;
+      width: auto;
+    }
+    
     &-hello{
       font-family: 'ILoveGlitter';
       font-size: 46px;
@@ -41,6 +47,10 @@
     &-description, &-stage, &-resume, &-link{
       font-size: 14px;
       padding-left: 10px;
+      @media (max-width: 900px){
+        font-size: 12px;
+        padding-left: 0;
+      }
     }
     
     &-description{

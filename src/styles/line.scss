@@ -5,6 +5,9 @@
     width: 2px;
     left: 43px;
     top: 0px;
+    @media (max-width: 900px){
+        visibility: hidden;
+    }
 }
 
 
