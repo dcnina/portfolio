@@ -5,7 +5,7 @@
         justify-content: center;
         align-items: center;
         &-content{
-            width: 600px;
+            width: 650px;
         }
     }
 }
@@ -29,8 +29,8 @@
 
     &-img{
         &-img{
-            width: 300px;
-            height: 300px;
+            width: 320px;
+            height: 320px;
             position:relative; z-index:10;
         }
     }
@@ -52,7 +52,7 @@
             font-family: 'ILoveGlitter';
             font-style: normal;
             font-weight: normal;
-            font-size: 28px;
+            font-size: 32px;
             line-height: 42px;
             text-align: center;
             background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=a3a3a3&density=8&opacity=15');
@@ -62,7 +62,7 @@
 
         &-cat{
             font-weight: 300;
-            font-size: 11px;
+            font-size: 14px;
             text-align: center;
         }
 

@@ -1,6 +1,7 @@
 export default [
   {
     id: 0,
+    name: "feminism(s)",
     title: "feminism(s)",
     category:
       "podcast",
@@ -8,6 +9,7 @@ export default [
   },
   {
     id: 1,
+    name: "donnerdelavoix",
     title: "donner de la voix",
     category:
       "short film - original music",
@@ -15,6 +17,7 @@ export default [
   },
   {
     id: 2,
+    name: "naivetespartagees",
     title: "naïvetés partagées",
     category:
       "living photography exhibition",
@@ -22,6 +25,7 @@ export default [
   },
   {
     id: 3,
+    name: "lafermedubuisson",
     title: "la ferme du buisson",
     category:
       "video communication - season 2020",
@@ -29,6 +33,7 @@ export default [
   },
   {
     id: 4,
+    name: "pulpfestival",
     title: "pulp festival",
     category:
       "application",

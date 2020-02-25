@@ -1,22 +1,28 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const WorkBlock = props => (
     
         <div className="workBlock">
             <div className="workBlock-img">
-                <NavLink to={`work/${props.id}`}>
+                <Link to={{
+                    pathname:`work/${props.name}`,
+                    id: `${props.id}`
+                }}>
                     <img className="workBlock-img-img" alt="work-img" src={require(`../assets/${props.img}.png`)}/>
-                </NavLink>
+                </Link>
             </div>
             <div className="workBlock-desc">
-                <NavLink to={`project/${props.id}`}>
+                <Link to={{
+                    pathname:`work/${props.name}`,
+                    id: `${props.id}`
+                }}>
                     <div className="line">
                         <p className="workBlock-desc-title">{props.title}</p>
                         <div className="workBlock-desc-line-horizon" />
                     </div>
                     <p className="workBlock-desc-cat">{props.category}</p>
-                </NavLink>
+                </Link>
             </div>
         </div>
 );

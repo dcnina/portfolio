@@ -15,16 +15,22 @@ class ProjectBlock extends Component {
         window.scrollTo(0,0);
       }
 
+    getPrevId = () => {
+        return (this.props.id > 0) ? parseInt(this.props.id) - 1 : this.props.id;
+    }
+
+    getNextId = () => {
+        return (this.props.id < projectsdata.length - 1) ? parseInt(this.props.id) + 1 : this.props.id;
+    }
+
     prevCategory = () => {
-    var idprev = parseInt(this.props.id) - 1;
-    var route = "/work/" + idprev;
-    return (this.props.id > 0) ? route : "/work/"+this.props.id
+        var idprev = parseInt(this.props.id) - 1;
+        return (this.props.id > 0) ? "/work/" + projectsdata[idprev].name : "/work/"+projectsdata[this.props.id].name
     }
 
     nextCategory = () => {
-    var idnext = parseInt(this.props.id) + 1;
-    var route = "/work/" + idnext;
-    return (this.props.id < projectsdata.length - 1) ? route : "/work/"+this.props.id
+        var idnext = parseInt(this.props.id) + 1;
+        return (this.props.id < projectsdata.length - 1) ? "/work/" + projectsdata[idnext].name : "/work/"+projectsdata[this.props.id].name
     }
 
     extraVisibility = () => {
@@ -35,6 +41,8 @@ class ProjectBlock extends Component {
 
     render() {
     let data = projectsdata[this.props.id];
+    //console.log("PREV: " + this.prevCategory() + "  id: " + this.getPrevId());
+    //console.log("NEXT: " + this.nextCategory() + "  id: " + this.getNextId());
         
     return (
         
@@ -44,7 +52,7 @@ class ProjectBlock extends Component {
                 <div className="project-content-top">
                     <div className="project-content-header">
                         <div className="project-content-header-maincontent" dangerouslySetInnerHTML={{ __html: data.mainContent }} />    
-                        <div className="line">
+                        <div className="project-content-line">
                             <p className="project-content-header-title" id="title">{data.title}</p>
                             <div className="project-content-header-line-horizon" />
                         </div>
@@ -57,10 +65,16 @@ class ProjectBlock extends Component {
                 {this.extraVisibility()}
             </div>
             <div className="project-controls">
-                <Link to={this.prevCategory}>
+                <Link to={{
+                    pathname: this.prevCategory(),
+                    id: this.getPrevId()
+                }}>
                     <div className="project-controls-item project-controls-item--prev">prev</div>
                 </Link>
-                <Link to={this.nextCategory}>
+                <Link to={{
+                    pathname: this.nextCategory(),
+                    id: this.getNextId()
+                }}>
                     <div className="project-controls-item project-controls-item--next">next</div>
                 </Link>
             </div>

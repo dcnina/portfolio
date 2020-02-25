@@ -3,15 +3,18 @@ import {useParams} from "react-router";
 import ProjectBlock from "../components/ProjectBlock";
 import ScrollToTop from "../components/ScrollToTop";
 
-function Project() {
-    let { id } = useParams();
+const Project = props => {
+    let { name } = useParams();
 
     useEffect(() => {
-        window.scrollTo(0, 0);
-    });
+        window.scrollTo(0, 0)
+    }, [])
 
     return (
-        <ProjectBlock id={id}/>
+        <div>
+        <ScrollToTop/>
+        <ProjectBlock name={name} id={props.location.id}/>
+        </div>
     );
   }
 

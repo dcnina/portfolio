@@ -26,6 +26,11 @@
             z-index: 6;
         }
 
+        &-line{
+            display: flex;
+            align-items: center;
+        }
+
         &-header{
             display: flex;
             flex-direction: row;
@@ -42,13 +47,13 @@
                 position:relative; z-index:10;
                 background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=a3a3a3&density=8&opacity=15');
             }
-
             &-line-horizon{
                 height: 2px;
                 width: 100%;
                 background-color: black;
                 position: absolute;
-                left: 780px;
+                left: 810px;
+                margin-top: 40px;
                 z-index: 1;
             }
         }

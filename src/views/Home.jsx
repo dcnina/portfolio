@@ -24,6 +24,7 @@ class Home extends Component {
               <WorkBlock
                 key={key}
                 id={elm.id}
+                name={elm.name}
                 title={elm.title}
                 category={elm.category}
                 img={elm.img}
@@ -56,7 +57,7 @@ class Home extends Component {
                 <a href="https://youtu.be/bbc4k0ZFsPQ" target="_blank"><p>Ghost song</p></a>
               </div>
               <div className="home-more-tab-music">
-                <p className="home-more-tab-title">web</p>
+                <p className="home-more-tab-title">web/design</p>
                 <a href="https://dcnina.github.io/listentotheweather/" target="_blank"><p>Listen to the weather</p></a>
                 <a href="https://projet-alt-13.netlify.com/" target="_blank"><p>alt-13</p></a>
               </div>
