@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import projectsdata from "../datas/projectsdata";
+import projectkeys from "../datas/projectkeys";
 import Footer from "../components/Footer";
 import Line from "../components/Line";
 import ExtraBlock from "./ExtraBlock";
@@ -9,40 +10,44 @@ import ScrollToTop from "./ScrollToTop";
 class ProjectBlock extends Component {
     componentDidMount() {
         window.scrollTo(0, 0);
-      }
-    
-      componentDidUpdate() {
-        window.scrollTo(0,0);
-      }
-
-    getPrevId = () => {
-        return (this.props.id > 0) ? parseInt(this.props.id) - 1 : this.props.id;
     }
 
-    getNextId = () => {
-        return (this.props.id < projectsdata.length - 1) ? parseInt(this.props.id) + 1 : this.props.id;
+    componentDidUpdate() {
+        window.scrollTo(0,0);
+    }
+
+    
+    getObjectKeyIndex = (obj, keyToFind) =>{
+        var i = 0, key;
+
+        for (key in obj) {
+            if (key === keyToFind)
+                return i;
+            i++;
+        }
+        return null;
     }
 
     prevCategory = () => {
-        var idprev = parseInt(this.props.id) - 1;
-        return (this.props.id > 0) ? "/work/" + projectsdata[idprev].name : "/work/"+projectsdata[this.props.id].name
+        var id = this.getObjectKeyIndex(projectsdata, this.props.name);
+        var idprev = parseInt(id) - 1;
+        return (id > 0) ? "/"+projectkeys[idprev] : "/"+this.props.name
     }
 
     nextCategory = () => {
-        var idnext = parseInt(this.props.id) + 1;
-        return (this.props.id < projectsdata.length - 1) ? "/work/" + projectsdata[idnext].name : "/work/"+projectsdata[this.props.id].name
+        var id = this.getObjectKeyIndex(projectsdata, this.props.name);
+        var idnext = parseInt(id) + 1;
+        return (id < projectkeys.length - 1) ? "/"+projectkeys[idnext] : "/"+this.props.name
     }
 
     extraVisibility = () => {
-        if (projectsdata[this.props.id].extraBool == 1)
-            return <ExtraBlock id={this.props.id}/>
+        if (projectsdata[this.props.name].extraBool === 1)
+            return <ExtraBlock name={this.props.name}/>
         return null
     }
 
     render() {
-    let data = projectsdata[this.props.id];
-    //console.log("PREV: " + this.prevCategory() + "  id: " + this.getPrevId());
-    //console.log("NEXT: " + this.nextCategory() + "  id: " + this.getNextId());
+    let data = projectsdata[this.props.name];
         
     return (
         
@@ -65,16 +70,10 @@ class ProjectBlock extends Component {
                 {this.extraVisibility()}
             </div>
             <div className="project-controls">
-                <Link to={{
-                    pathname: this.prevCategory(),
-                    id: this.getPrevId()
-                }}>
+                <Link to={this.prevCategory()}>
                     <div className="project-controls-item project-controls-item--prev">prev</div>
                 </Link>
-                <Link to={{
-                    pathname: this.nextCategory(),
-                    id: this.getNextId()
-                }}>
+                <Link to={this.nextCategory()}>
                     <div className="project-controls-item project-controls-item--next">next</div>
                 </Link>
             </div>

@@ -5,18 +5,12 @@ const WorkBlock = props => (
     
         <div className="workBlock">
             <div className="workBlock-img">
-                <Link to={{
-                    pathname:`work/${props.name}`,
-                    id: `${props.id}`
-                }}>
+                <Link to={`/${props.name}`}>
                     <img className="workBlock-img-img" alt="work-img" src={require(`../assets/${props.img}.png`)}/>
                 </Link>
             </div>
             <div className="workBlock-desc">
-                <Link to={{
-                    pathname:`work/${props.name}`,
-                    id: `${props.id}`
-                }}>
+                <Link to={`/${props.name}`}>
                     <div className="line">
                         <p className="workBlock-desc-title">{props.title}</p>
                         <div className="workBlock-desc-line-horizon" />

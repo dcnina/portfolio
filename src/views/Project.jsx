@@ -13,7 +13,7 @@ const Project = props => {
     return (
         <div>
         <ScrollToTop/>
-        <ProjectBlock name={name} id={props.location.id}/>
+        <ProjectBlock name={name}/>
         </div>
     );
   }

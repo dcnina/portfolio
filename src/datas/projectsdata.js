@@ -1,7 +1,5 @@
-export default [
-    {
-        id: 0,
-        name: "feminism(s)",
+export default {
+    "feminisms" :{
         title: "feminism(s)",
         category:
             "podcast",
@@ -11,9 +9,7 @@ export default [
         extraContent: [],
         extraBool: 0
     },
-    {
-        id: 1,
-        name: "donnerdelavoix",
+    "donnerdelavoix":{
         title: "donner de la voix",
         category:
             "short film - original music",
@@ -23,9 +19,7 @@ export default [
         extraContent: [],
         extraBool: 0
     },
-    {
-        id: 2,
-        name: "naivetespartagees",
+    "naivetespartagees":{
         title: "naïvetés partagées",
         category:
             "living photography exhibition",
@@ -35,15 +29,13 @@ export default [
         extraContent: [],
         extraBool: 0
     },
-    {
-        id: 3,
-        name: "lafermedubuisson",
+    "lafermedubuisson":{
         title: "la ferme du buisson",
         category:
             "video communication - season 2020",
         mainContent: "<iframe class=\"project-content-header-maincontent-video\" width=\"450\" height=\"253.125\" src=\"https://www.youtube.com/embed/-GcvBIrXiHI\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
         description: "Et quoniam inedia gravi adflictabantur, locum petivere Paleas nomine, vergentem in mare, valido muro firmatum, ubi conduntur nunc usque commeatus distribui militibus omne latus Isauriae defendentibus adsueti",
-        skills: "communication · editing · adobe premier · after effect · photoshop · animation · sound design",
+        skills: "communication · editing · adobe premier · after effect · photoshop · animation · sound design · graphism",
         extraContent: ["<iframe class=\"project-content-header-maincontent-videoextra\" width=\"426\" height=\"240\" src=\"https://www.youtube.com/embed/Qmm9dAPntHo\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
         "<iframe class=\"project-content-header-maincontent-videoextra\" width=\"426\" height=\"240\" src=\"https://www.youtube.com/embed/S3B0gPKLj4o\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
         "<iframe class=\"project-content-header-maincontent-videoextra\" width=\"426\" height=\"240\" src=\"https://www.youtube.com/embed/jGkn8aLP3JM\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
@@ -51,9 +43,7 @@ export default [
         ],
         extraBool: 1
     },
-    {
-        id: 4,
-        name: "pulpfestival",
+    "pulpfestival":{
         title: "pulp festival",
         category:
             "application",
@@ -63,4 +53,4 @@ export default [
         extraContent: [],
         extraBool: 0
     }
-];
+};

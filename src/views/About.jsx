@@ -3,15 +3,6 @@ import Line from "../components/Line";
 import Footer from "../components/Footer";
 
 class About extends Component {
-
-  // getTopElement = () => {
-  //   var object = document.getElementsByClassName('about-text-hello'); 
-  //   var rect = object.getBoundingClientRect();
-  //   console.log("coucou" + rect + "   "+ rect.left);
-    
-  //   return <div className="line-horizon" />
-  // }
-
   render() {
     return (
       
@@ -26,11 +17,11 @@ class About extends Component {
           <p className="about-text-resume">-------- Download my resume</p>
           <div className="about-text-link">
             <a href="mailto: dcninaa@gmail.com"><p className="about-text-link-mail">mail</p></a>
-            <a href="https://www.linkedin.com/in/nina-de-castro-299626181/" target="_blank"><p className="about-text-link-linkedin">linkedin</p></a>
-            <a href="https://www.instagram.com/_ninadecastro/" target="_blank"><p className="about-text-link-insta">instagram</p></a>
-            <a href="https://soundcloud.com/ninadecastro" target="_blank"><p className="about-text-link-sound">soundcloud</p></a>
-            <a href="https://www.youtube.com/channel/UCZNQCKCmhNEq3WfuEwnsnug?view_as=subscriber" target="_blank"><p className="about-text-link-yt">youtube</p></a>
-            <a href="https://github.com/dcnina" target="_blank"><p className="about-text-link-git">github</p></a>
+            <a href="https://www.linkedin.com/in/nina-de-castro-299626181/" target="_blank" rel="noopener noreferrer"><p className="about-text-link-linkedin">linkedin</p></a>
+            <a href="https://www.instagram.com/_ninadecastro/" target="_blank" rel="noopener noreferrer"><p className="about-text-link-insta">instagram</p></a>
+            <a href="https://soundcloud.com/ninadecastro" target="_blank" rel="noopener noreferrer"><p className="about-text-link-sound">soundcloud</p></a>
+            <a href="https://www.youtube.com/channel/UCZNQCKCmhNEq3WfuEwnsnug?view_as=subscriber" target="_blank" rel="noopener noreferrer"><p className="about-text-link-yt">youtube</p></a>
+            <a href="https://github.com/dcnina" target="_blank" rel="noopener noreferrer"><p className="about-text-link-git">github</p></a>
           </div>
         </div>
         <Line/>

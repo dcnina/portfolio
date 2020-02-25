@@ -1,7 +1,7 @@
 export default [
   {
     id: 0,
-    name: "feminism(s)",
+    name: "feminisms",
     title: "feminism(s)",
     category:
       "podcast",

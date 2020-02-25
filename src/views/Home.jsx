@@ -43,23 +43,23 @@ class Home extends Component {
             <div className="home-more-tab">
               <div className="home-more-tab-music">
                 <p className="home-more-tab-title">music</p>
-                <a href="https://soundcloud.com/ninadecastro/expose" target="_blank"><p>Exposé</p></a>
-                <a href="https://soundcloud.com/ninadecastro/neige" target="_blank"><p>Neige</p></a>
+                <a href="https://soundcloud.com/ninadecastro/expose" target="_blank" rel="noopener noreferrer"><p>Exposé</p></a>
+                <a href="https://soundcloud.com/ninadecastro/neige" target="_blank" rel="noopener noreferrer"><p>Neige</p></a>
               </div>
               <div className="home-more-tab-films">
                 <p className="home-more-tab-title">films</p>
-                <a href="https://youtu.be/q77jG6srjuM" target="_blank"><p>Micro complice</p></a>
-                <a href="https://youtu.be/zMBlH4rEEX0" target="_blank"><p>Metronorme</p></a>
+                <a href="https://youtu.be/q77jG6srjuM" target="_blank" rel="noopener noreferrer"><p>Micro complice</p></a>
+                <a href="https://youtu.be/zMBlH4rEEX0" target="_blank" rel="noopener noreferrer"><p>Metronorme</p></a>
               </div>
               <div className="home-more-tab-music">
                 <p className="home-more-tab-title">animation</p>
-                <a href="https://youtu.be/M40_LMUQ2OQ" target="_blank"><p>The dog the futur</p></a>
-                <a href="https://youtu.be/bbc4k0ZFsPQ" target="_blank"><p>Ghost song</p></a>
+                <a href="https://youtu.be/M40_LMUQ2OQ" target="_blank" rel="noopener noreferrer"><p>The dog the futur</p></a>
+                <a href="https://youtu.be/bbc4k0ZFsPQ" target="_blank" rel="noopener noreferrer"><p>Ghost song</p></a>
               </div>
               <div className="home-more-tab-music">
                 <p className="home-more-tab-title">web/design</p>
-                <a href="https://dcnina.github.io/listentotheweather/" target="_blank"><p>Listen to the weather</p></a>
-                <a href="https://projet-alt-13.netlify.com/" target="_blank"><p>alt-13</p></a>
+                <a href="https://dcnina.github.io/listentotheweather/" target="_blank" rel="noopener noreferrer"><p>Listen to the weather</p></a>
+                <a href="https://projet-alt-13.netlify.com/" target="_blank" rel="noopener noreferrer"><p>alt-13</p></a>
               </div>
             </div>
           </div>

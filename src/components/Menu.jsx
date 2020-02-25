@@ -47,7 +47,7 @@ class Menu extends Component {
             to="/about">
             <div className="menu-bar-cat">about</div>
           </NavLink>
-          <a href="mailto: dcninaa@gmail.com" target="_blank">
+          <a href="mailto: dcninaa@gmail.com" target="_blank" rel="noopener noreferrer">
             <div className="menu-bar-cat">contact</div>
           </a>
         </div>
