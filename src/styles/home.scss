@@ -15,7 +15,7 @@
     @media (max-width: 900px){
       height: 97vh;
     }
-    
+
     &-line{
       width: 100px;
       @media (max-width: 900px){
@@ -28,7 +28,7 @@
       width: 82%;
       background-color: black;
       position: absolute;
-      right: 0;
+      left: 0;
       z-index: 1;
       margin-top: -22px;
     }

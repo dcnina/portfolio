@@ -3,18 +3,8 @@ import Line from "../components/Line";
 import Footer from "../components/Footer";
 import WorkBlock from "../components/WorkBlock";
 import homedata from "../datas/homedata";
-import ScrollToTop from "../components/ScrollToTop";
 
 class Home extends Component {
-
-  // componentDidMount() {
-  //   window.scrollTo(0, 0);
-  // }
-
-  // componentDidUpdate() {
-  //   window.scrollTo(0,0);
-  // }
-
 
   render() {
     return (

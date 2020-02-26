@@ -5,17 +5,8 @@ import projectkeys from "../datas/projectkeys";
 import Footer from "../components/Footer";
 import Line from "../components/Line";
 import ExtraBlock from "./ExtraBlock";
-import ScrollToTop from "./ScrollToTop";
 
-class ProjectBlock extends Component {
-    // componentDidMount() {
-    //     window.scrollTo(0, 0);
-    // }
-
-    // componentDidUpdate() {
-    //     window.scrollTo(0,0);
-    // }
-    
+class ProjectBlock extends Component { 
     getObjectKeyIndex = (obj, keyToFind) =>{
         var i = 0, key;
 

@@ -7,7 +7,7 @@
         &-content{
             width: 650px;
             @media (max-width: 900px){
-                //width: 300px;
+                width: auto;
                 z-index: 1;
             }
         }

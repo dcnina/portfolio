@@ -1,6 +1,5 @@
 import React, {Component} from "react";
 import projectsdata from "../datas/projectsdata";
-import ScrollToTop from "../components/ScrollToTop";
 
 class ExtraBlock extends Component {
     getContent = (elm, key) => {
