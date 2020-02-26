@@ -45,6 +45,13 @@ class ProjectBlock extends Component {
         return null
     }
 
+    getContent = () => {
+        var mainContent = projectsdata[this.props.name].mainContent;
+        if (projectsdata[this.props.name].catContent === "video")
+            return <div className="project-content-header-maincontent" dangerouslySetInnerHTML={{ __html: mainContent }} />
+        return <img className="project-content-header-photo" alt="np" src={require(`../assets/${mainContent}`)} />
+    }
+
     render() {
     let data = projectsdata[this.props.name];
         
@@ -55,14 +62,16 @@ class ProjectBlock extends Component {
             <div className="project-content">
                 <div className="project-content-top">
                     <div className="project-content-header">
-                        <div className="project-content-header-maincontent" dangerouslySetInnerHTML={{ __html: data.mainContent }} />    
+                        {/* <img alt="np" src={require('../assets/np.png')} /> */}
+                        {this.getContent()}   
                         <div className="project-content-line">
                             <p className="project-content-header-title" id="title">{data.title}</p>
                             <div className="project-content-header-line-horizon" />
                         </div>
                     </div>
                     <div className="project-content-infos">
-                        <p className="project-content-infos-desc">{data.description}</p>
+                        <div dangerouslySetInnerHTML={{ __html: data.description }} />
+                        {/* <p className="project-content-infos-desc">{data.description}</p> */}
                         <p className="project-content-infos-skills">{data.skills}</p>
                     </div>
                 </div>

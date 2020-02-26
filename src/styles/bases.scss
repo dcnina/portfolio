@@ -8,6 +8,10 @@ html, body{
     overflow-x: hidden;
     background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=a3a3a3&density=8&opacity=15');
 }
+.a-color{
+    color: $green !important;
+    font-weight: 500;
+}
 
 a.active {
 }
@@ -36,3 +40,4 @@ h1, h2, h3, p{
     margin: 0;
     padding: 0;
 }
+

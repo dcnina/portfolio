@@ -16,11 +16,16 @@
         @media (max-width: 900px){
             width: 650px;
             z-index: 1;
+            margin-top: 100px;
+            margin-bottom: 70px;
         }
 
         &-top, &-extra{
             height: 100vh;
             z-index: 3;
+            @media (max-width: 900px){
+                height: auto;
+            }
         }
 
         &-top{
@@ -41,6 +46,14 @@
             @media (max-width: 900px){
                 flex-direction: column;
                 align-items: center;
+            }
+
+            &-photo{
+                width: auto;
+                height: 170px;
+                @media (max-width: 900px){
+                    height: 125px;
+                }
             }
 
             &-maincontent{
@@ -96,7 +109,8 @@
         }
 
         &-infos{
-            margin-top: 30px;
+            margin-top: 20px;
+            text-align: justify;
             @media (max-width: 900px) {
                 padding: 0 160px 0px 160px;
                 width: auto;
@@ -108,6 +122,7 @@
                 margin-top: 30px;
                 font-style: italic;
                 font-size: 12px;
+                text-align: center;
             }
         }
         
@@ -136,6 +151,13 @@
                 padding-top: 50px;
             }
 
+            &-photo{
+                width: auto;
+                height: 280px;
+                @media (max-width: 900px){
+                    height: 150px;
+                }
+            }
             &-element{
                 &-0, &-1, &-2, &-3 { padding-bottom: 10px; }
         
@@ -173,7 +195,7 @@
 
         @media (max-width: 900px){
             bottom: 12px; 
-            font-size: 20px;
+            font-size: 30px;
         }
 
         &-item{
@@ -182,7 +204,7 @@
             }
   
             &--prev{
-                padding-left: 5px;
+                padding-left: 10px;
                 padding-right: 50%;
                 background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=a3a3a3&density=8&opacity=15');
                 @media (max-width: 900px){
@@ -192,7 +214,7 @@
             }
   
             &--next{
-                padding-right: 5px;
+                padding-right: 10px;
                 padding-left: 50%;
                 background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=a3a3a3&density=8&opacity=15');
                 @media (max-width: 900px){

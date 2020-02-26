@@ -12,7 +12,7 @@ class About extends Component {
             <p className="about-text-hello" id="hello">Hello!</p>
             <div className="line-horizon" />
           </div>
-          <p className="about-text-description">I'm Nina, I'm a Digital Media master student in Bremen, for exchange semester. I'm currently studying in the multimedia engineering school, IMAC, in Paris. I love experiment with images and sounds, in all of its forms: music composition, video, sounds design, photography and graphic design.</p>
+          <p className="about-text-description">I'm Nina, I'm a <a className="a-color" target="_blank" rel="noopener noreferrer" href="http://digitalmedia-bremen.de">Digital Media Master</a> student in Bremen, for exchange semester. I'm currently studying in the multimedia engineering school, <a className="a-color" target="_blank" rel="noopener noreferrer" href="https://www.ingenieur-imac.fr">IMAC</a>, in Paris. I love experiment with images and sounds, in all of its forms: music composition, video, sounds design, photography and graphic design.</p>
           <p className="about-text-stage">I'm currently looking for an internship for 4/6 months starting from march 2020.</p>
           <p className="about-text-resume">-------- Download my resume</p>
           <div className="about-text-link">

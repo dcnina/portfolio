@@ -35,7 +35,7 @@
     
     &-hello{
       font-family: 'ILoveGlitter';
-      font-size: 46px;
+      font-size: 48px;
       line-height: 49px;
       width: 135px;
       padding: 0 20px 0px 11px;
@@ -45,7 +45,7 @@
     }
 
     &-description, &-stage, &-resume, &-link{
-      font-size: 14px;
+      font-size: 15px;
       padding-left: 10px;
       @media (max-width: 900px){
         font-size: 12px;
@@ -53,8 +53,12 @@
       }
     }
     
+    &-link{
+      font-size: 14px !important;
+    }
+
     &-description{
-      font-size: 14px;
+      font-size: 15px;
       text-align: justify;
       margin-top: 20px;
     }

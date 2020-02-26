@@ -1,17 +1,32 @@
-import React from "react";
+import React, {Component} from "react";
 import projectsdata from "../datas/projectsdata";
 import ScrollToTop from "../components/ScrollToTop";
 
-const ExtraBlock = props => (
-    
-    <div class="project-container" style={{height:'100vh'}}>
-        <ScrollToTop/>
-        <div className="project-content-extra">
-            {projectsdata[props.name].extraContent.map((elm,key) => (
-                <div className={"project-content-extra-element-"+key} dangerouslySetInnerHTML={{ __html: elm }} />
-            ))}
+class ExtraBlock extends Component {
+    getContent = (elm, key) => {
+        console.log("ELM: " + elm);
+        
+        if (projectsdata[this.props.name].catContent === "video")
+            return <div className={"project-content-extra-element-"+key} dangerouslySetInnerHTML={{ __html: elm }} />
+        return <img className="project-content-extra-photo" alt="np" src={require(`../assets/${elm}`)} />
+    }
+
+    render() {
+        return (
+            <div class="project-container" style={{height:'100vh'}}>
+            <ScrollToTop/>
+            <div className="project-content-extra">
+                {projectsdata[this.props.name].extraContent.map((elm,key) => (
+                    this.getContent(elm, key)
+                    // <div className={"project-content-extra-element-"+key} dangerouslySetInnerHTML={{ __html: elm }} />
+                ))}
+            </div>
         </div>
-    </div>
-);
+        );
+    }
+    
+};
+
+
 
 export default ExtraBlock;
