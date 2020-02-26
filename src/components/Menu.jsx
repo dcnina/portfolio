@@ -18,11 +18,11 @@ class Menu extends Component {
     })
   }
 
-  scrollToTop() {
-    console.log("COUCOU");
+  // scrollToTop() {
+  //   console.log("COUCOU");
     
-    window.scrollTo(0, 0);
-  }
+  //   window.scrollTo(0, 0);
+  // }
 
 
   render() {

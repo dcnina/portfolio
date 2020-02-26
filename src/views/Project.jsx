@@ -6,13 +6,8 @@ import ScrollToTop from "../components/ScrollToTop";
 const Project = props => {
     let { name } = useParams();
 
-    useEffect(() => {
-        window.scrollTo(0, 0)
-    }, [])
-
     return (
         <div>
-        <ScrollToTop/>
         <ProjectBlock name={name}/>
         </div>
     );

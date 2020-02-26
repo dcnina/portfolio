@@ -8,13 +8,13 @@ import ExtraBlock from "./ExtraBlock";
 import ScrollToTop from "./ScrollToTop";
 
 class ProjectBlock extends Component {
-    componentDidMount() {
-        window.scrollTo(0, 0);
-    }
+    // componentDidMount() {
+    //     window.scrollTo(0, 0);
+    // }
 
-    componentDidUpdate() {
-        window.scrollTo(0,0);
-    }
+    // componentDidUpdate() {
+    //     window.scrollTo(0,0);
+    // }
     
     getObjectKeyIndex = (obj, keyToFind) =>{
         var i = 0, key;

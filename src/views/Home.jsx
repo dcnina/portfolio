@@ -7,19 +7,18 @@ import ScrollToTop from "../components/ScrollToTop";
 
 class Home extends Component {
 
-  componentDidMount() {
-    window.scrollTo(0, 0);
-  }
+  // componentDidMount() {
+  //   window.scrollTo(0, 0);
+  // }
 
-  componentDidUpdate() {
-    window.scrollTo(0,0);
-  }
+  // componentDidUpdate() {
+  //   window.scrollTo(0,0);
+  // }
 
 
   render() {
     return (
       <div className="home">
-        <ScrollToTop/>
         <div className="home-works">
           <div className="home-works-content">
             {homedata.map((elm, key) => (
