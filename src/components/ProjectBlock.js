@@ -58,7 +58,6 @@ class ProjectBlock extends Component {
     return (
         
         <div className="project">
-            <ScrollToTop/>
             <div className="project-content">
                 <div className="project-content-top">
                     <div className="project-content-header">

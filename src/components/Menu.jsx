@@ -18,11 +18,11 @@ class Menu extends Component {
     })
   }
 
-  // scrollToTop() {
-  //   console.log("COUCOU");
+  scrollToTop() {
+    console.log("COUCOU");
     
-  //   window.scrollTo(0, 0);
-  // }
+    window.scrollTo(0, 0);
+  }
 
 
   render() {
@@ -37,7 +37,7 @@ class Menu extends Component {
         <div className={"menu-bar" + (this.state.open ? ' open' : '')}>
           <NavLink
             activeclassname="menu-bar-cat_active"
-            onClick={this.toggleMenu}
+            onClick={this.scrollToTop}
             to="/">
             <div className="menu-bar-cat">works</div>
           </NavLink>

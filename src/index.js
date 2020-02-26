@@ -7,9 +7,11 @@ import Home from "./views/Home.jsx";
 import Menu from "./components/Menu.jsx";
 import About from "./views/About.jsx";
 import Project from "./views/Project.jsx";
+import ScrollToTop from "./components/ScrollToTop";
 
 const Root = () => (
   <BrowserRouter >
+    <ScrollToTop/>
     <Menu />
     <Switch>
       <Route exact path="/" component={Home} />
