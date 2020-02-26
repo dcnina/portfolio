@@ -25,15 +25,12 @@
 
     &-line-horizon{
       height: 2px;
-      width: 100%;
+      width: 82%;
       background-color: black;
       position: absolute;
-      left: 240px;
+      right: 0;
       z-index: 1;
       margin-top: -22px;
-      @media (max-width: 900px){
-        left: -150px;
-      }
     }
 
     &-title{

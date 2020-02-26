@@ -8,7 +8,8 @@ const Project = props => {
 
     return (
         <div>
-        <ProjectBlock name={name}/>
+          <ScrollToTop />
+          <ProjectBlock name={name}/>
         </div>
     );
   }

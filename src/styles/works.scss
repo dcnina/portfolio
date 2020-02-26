@@ -25,10 +25,7 @@
 .workBlock:nth-child(even) .workBlock-desc {
     margin: 0px 88px 68px 0px;
     &-line-horizon{
-        left: -232px;
-        @media (max-width: 900px){
-            left: -90px;
-        }
+        left: 0;
     }
 }
 
@@ -57,15 +54,12 @@
 
         &-line-horizon{
             height: 2px;
-            width: 100%;
+            width: 82%;
             background-color: black;
             position: absolute;
-            left: 240px;
+            right: 0;
             z-index: 1;
             margin-top: -22px;
-            @media (max-width: 900px){
-                left: 90px;
-            }
         }
 
         &-title{
