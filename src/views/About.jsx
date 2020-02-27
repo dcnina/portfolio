@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Line from "../components/Line";
 import Footer from "../components/Footer";
+import {Link} from "react-router-dom";
 
 class About extends Component {
   render() {
@@ -14,7 +15,7 @@ class About extends Component {
           </div>
           <p className="about-text-description">I'm Nina, I'm a <a className="a-color" target="_blank" rel="noopener noreferrer" href="http://digitalmedia-bremen.de">Digital Media Master</a> student in Bremen, for exchange semester. I'm currently studying in the multimedia engineering school, <a className="a-color" target="_blank" rel="noopener noreferrer" href="https://www.ingenieur-imac.fr">IMAC</a>, in Paris. I love experiment with images and sounds, in all of its forms: music composition, video, sounds design, photography and graphic design.</p>
           <p className="about-text-stage">I'm currently looking for an internship for 4/6 months starting from march 2020.</p>
-          <p className="about-text-resume">-------- Download my resume</p>
+          <Link to="/DeCastro-Nina-CV-english.pdf" target="_blank" rel="noopener noreferrer" download><p className="about-text-resume">-------- Download my resume</p></Link>
           <div className="about-text-link">
             <a href="mailto: dcninaa@gmail.com"><p className="about-text-link-mail">mail</p></a>
             <a href="https://www.linkedin.com/in/nina-de-castro-299626181/" target="_blank" rel="noopener noreferrer"><p className="about-text-link-linkedin">linkedin</p></a>

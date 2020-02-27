@@ -8,14 +8,6 @@ export default [
     img: "feminism(s)"
   },
   {
-    id: 1,
-    name: "donnerdelavoix",
-    title: "donner de la voix",
-    category:
-      "short film - original music",
-    img: "donnerdelavoix"
-  },
-  {
     id: 2,
     name: "naivetespartagees",
     title: "naïvetés partagées",
@@ -30,6 +22,14 @@ export default [
     category:
       "video communication - season 2020",
     img: "lfdb"
+  },
+  {
+    id: 1,
+    name: "donnerdelavoix",
+    title: "donner de la voix",
+    category:
+      "short film - original music",
+    img: "donnerdelavoix"
   },
   {
     id: 4,

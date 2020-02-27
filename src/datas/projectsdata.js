@@ -9,16 +9,6 @@ export default {
         extraContent: [],
         extraBool: 0
     },
-    "donnerdelavoix":{
-        title: "donner de la voix",
-        category: "short film - original music",
-        catContent:"video",
-        mainContent: "<iframe class=\"project-content-header-maincontent-video\" width=\"450\" height=\"253.125\" src=\"https://www.youtube.com/embed/wwWd8UCHgX0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-        description: "<p className=\"project-content-infos-desc\"><span style=\" font-size: 12px\">Through different interviews we give the voice to the Women. They tell us how they feel as a woman in society. There are still many obstacles to overcome to be heard and to find one's rightful place of equality whether at work, on the street and at home.</span><br><br><a href=\"https://www.youtube.com/embed/wwWd8UCHgX0\" class=\"a-color\" target=\"_blank\" rel=\"noopener noreferrer\">Donner de la voix</a> (Giving voice) is a fictional documentary, we made his title sequence. This video is an ode to Women, filmed in different images and metaphors representing injunctions. All this accompanied by <a class=\"a-color\" href=\"https://soundcloud.com/ninadecastro/donner-de-la-voix\" target=\"_blank\" rel=\"noopener noreferrer\">original music</a> that I composed. We want to send love to all the women around us, and that they do not hesitate to give voice.</br></br>Made with Stella Poulain.</p>",
-        skills: "filming · adobe premier · after effect · ableton  · composition · mixing  · editing",
-        extraContent: [],
-        extraBool: 0
-    },
     "naivetespartagees":{
         title: "naïvetés partagées",
         category: "living photography exhibition",
@@ -42,6 +32,16 @@ export default {
         "<iframe  class=\"project-content-header-maincontent-videoextra\" width=\"426\" height=\"240\" src=\"https://www.youtube.com/embed/8gbrE6qofcQ\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"   
         ],
         extraBool: 1
+    },
+    "donnerdelavoix":{
+        title: "donner de la voix",
+        category: "short film - original music",
+        catContent:"video",
+        mainContent: "<iframe class=\"project-content-header-maincontent-video\" width=\"450\" height=\"253.125\" src=\"https://www.youtube.com/embed/wwWd8UCHgX0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        description: "<p className=\"project-content-infos-desc\"><span style=\" font-size: 12px\">Through different interviews we give the voice to the Women. They tell us how they feel as a woman in society. There are still many obstacles to overcome to be heard and to find one's rightful place of equality whether at work, on the street and at home.</span><br><br><a href=\"https://www.youtube.com/embed/wwWd8UCHgX0\" class=\"a-color\" target=\"_blank\" rel=\"noopener noreferrer\">Donner de la voix</a> (Giving voice) is a fictional documentary, we made his title sequence. This video is an ode to Women, filmed in different images and metaphors representing injunctions. All this accompanied by <a class=\"a-color\" href=\"https://soundcloud.com/ninadecastro/donner-de-la-voix\" target=\"_blank\" rel=\"noopener noreferrer\">original music</a> that I composed. We want to send love to all the women around us, and that they do not hesitate to give voice.</br></br>Made with Stella Poulain.</p>",
+        skills: "filming · adobe premier · after effect · ableton  · composition · mixing  · editing",
+        extraContent: [],
+        extraBool: 0
     },
     "pulpfestival":{
         title: "pulp festival",
