@@ -19,8 +19,6 @@ class Menu extends Component {
   }
 
   scrollToTop() {
-    console.log("COUCOU");
-    
     window.scrollTo(0, 0);
   }
 

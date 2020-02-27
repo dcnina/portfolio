@@ -85,9 +85,9 @@
                 padding-left: 75px;
                 padding-top: 12px;
                 position:relative; z-index:10;
-                background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=a3a3a3&density=8&opacity=15');
+                background-image: url('./assets/whitenoise.png');
                 @media (max-width: 900px) {
-                    font-size: 38px;
+                    font-size: 37px;
                     padding-left: 60px;
                 }
 
@@ -194,7 +194,7 @@
         width: 100%;
 
         @media (max-width: 900px){
-            bottom: 12px; 
+            bottom: 28px;
             font-size: 20px;
         }
 
@@ -206,7 +206,7 @@
             &--prev{
                 padding-left: 10px;
                 padding-right: 50%;
-                background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=a3a3a3&density=8&opacity=15');
+                background-image: url('./assets/whitenoise.png');
                 @media (max-width: 900px){
                     padding-left: 0;
                     padding-right: 5px; 
@@ -216,7 +216,7 @@
             &--next{
                 padding-right: 10px;
                 padding-left: 50%;
-                background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=a3a3a3&density=8&opacity=15');
+                background-image: url('./assets/whitenoise.png');
                 @media (max-width: 900px){
                     padding-left: 5px;
                     padding-right: 0; 
