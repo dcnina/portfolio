@@ -40,7 +40,7 @@ class ProjectBlock extends Component {
         var mainContent = projectsdata[this.props.name].mainContent;
         if (projectsdata[this.props.name].catContent === "video")
             return <div className="project-content-header-maincontent" dangerouslySetInnerHTML={{ __html: mainContent }} />
-        return <img className="project-content-header-photo" alt="np" src={require(`../assets/${mainContent}`)} />
+        return <img className="project-content-header-photo" alt="project-img" src={require(`../assets/${mainContent}`)} />
     }
 
     render() {
