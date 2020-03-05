@@ -44,7 +44,7 @@ class Home extends Component {
               </div>
               <div className="home-more-tab-music">
                 <p className="home-more-tab-title">animation</p>
-                <a href="https://youtu.be/M40_LMUQ2OQ" target="_blank" rel="noopener noreferrer"><p>The dog the futur</p></a>
+                <a href="https://youtu.be/M40_LMUQ2OQ" target="_blank" rel="noopener noreferrer"><p>The dog the future</p></a>
                 <a href="https://youtu.be/bbc4k0ZFsPQ" target="_blank" rel="noopener noreferrer"><p>Ghost song</p></a>
               </div>
               <div className="home-more-tab-music">
