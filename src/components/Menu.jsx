@@ -39,15 +39,21 @@ class Menu extends Component {
             to="/">
             <div className="menu-bar-cat">works</div>
           </NavLink>
+          {/* <a href="mailto: dcninaa@gmail.com" target="_blank" rel="noopener noreferrer">
+            <div className="menu-bar-cat">video</div>
+          </a> */}
+          <NavLink
+            activeclassname="menu-bar-cat_active"
+            onClick={this.toggleMenu}
+            to="/photo">
+            <div className="menu-bar-cat">photo</div>
+          </NavLink>
           <NavLink
             activeclassname="menu-bar-cat_active"
             onClick={this.toggleMenu}
             to="/about">
             <div className="menu-bar-cat">about</div>
           </NavLink>
-          <a href="mailto: dcninaa@gmail.com" target="_blank" rel="noopener noreferrer">
-            <div className="menu-bar-cat">contact</div>
-          </a>
         </div>
       </div>
     );

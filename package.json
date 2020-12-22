@@ -45,6 +45,7 @@
     "react-dev-utils": "^8.0.0",
     "react-dom": "^16.8.4",
     "react-mailto": "^0.4.0",
+    "react-responsive-gallery": "^1.2.5",
     "react-router-dom": "^5.0.0",
     "react-router-scroll-top": "^0.2.1",
     "react-scroll-horizontal": "^1.6.2",

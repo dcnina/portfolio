@@ -43,7 +43,7 @@
     @media (max-width: 900px){
       //visibility: hidden;
       flex-direction: row;
-      margin-left: 178px;
+      margin-left: 190px;
       margin-top: 40px;
       align-items: stretch;
       font-size: 18px;
@@ -57,7 +57,7 @@
       -o-transform: rotate(-90deg);
       filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 
-      padding: 41px 5px 20px 5px;
+      padding: 47px 5px 20px 5px;
       background-image: url('./assets/whitenoise.png');
       @media (max-width: 900px){
         transform: rotate(0);

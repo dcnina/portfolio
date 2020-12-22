@@ -11,13 +11,13 @@ class ExtraBlock extends Component {
     render() {
         return (
             <div className="project-container" style={{height:'100vh'}}>
-            <div className="project-content-extra">
-                {projectsdata[this.props.name].extraContent.map((elm,key) => (
-                    this.getContent(elm, key)
-                    // <div className={"project-content-extra-element-"+key} dangerouslySetInnerHTML={{ __html: elm }} />
-                ))}
-            </div>
-        </div>
+                <div className="project-content-extra">
+                    {projectsdata[this.props.name].extraContent.map((elm,key) => (
+                        this.getContent(elm, key)
+                        // <div className={"project-content-extra-element-"+key} dangerouslySetInnerHTML={{ __html: elm }} />
+                    ))}
+                </div>
+             </div>
         );
     }
     

@@ -1,0 +1,85 @@
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    //width: 800px;
+    height: 100%;
+    position: relative;
+    //padding-top: 125px;
+
+    &-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 900px;
+        margin: 150px 175px 150px 175px;
+        
+        @media (max-width: 900px){
+            width: auto;
+            z-index: 1;
+            margin: 100px 30px 70px 30px;
+        }
+
+        &-data{
+            padding: 10px;
+
+            &-photoList{
+                padding: 40px 0 40px 0;
+
+                &-grid{
+                    @media (max-width: 900px){
+                        display: grid;
+                        justify-content: center;
+                    }
+                }
+
+                &-photo{
+                    width: auto;
+                    height: 280px;
+                    padding: 5px;
+                    @media (max-width: 900px){
+                        height: 220px;
+                        margin-bottom: 10px;
+                    }
+                }
+
+                &-title{
+                    font-family: 'ILoveGlitter';
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 32px;
+                    line-height: 42px;
+                    text-align: center;
+                    background-image: url('./assets/whitenoise.png');
+                    padding: 0 6px 0 6px;
+                    position:relative; z-index:10;
+                    right: -550px;
+                    @media (max-width: 900px){
+                        right: 0px;
+                    }
+
+                }
+
+                &-line-horizon{
+                    height: 2px;
+                    width: 40%;
+                    background-color: black;
+                    position: absolute;
+                    right: 0;
+                    z-index: 1;
+                    margin-top: -22px;
+                }
+            }
+        }
+
+        
+    }
+
+    &-line{
+        width: 350px;
+        right: 175px;
+    }
+
+}
+

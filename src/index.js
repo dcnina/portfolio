@@ -7,6 +7,7 @@ import Home from "./views/Home.jsx";
 import Menu from "./components/Menu.jsx";
 import About from "./views/About.jsx";
 import Project from "./views/Project.jsx";
+import Photo from "./views/Photo.jsx";
 import ScrollToTop from "./components/ScrollToTop";
 
 const Root = () => (
@@ -16,6 +17,7 @@ const Root = () => (
     <Switch>
       <Route exact path="/" component={Home} />
       <Route path="/about" component={About} />
+      <Route path="/photo" component={Photo} />
       <Route path="/:name" component={Project} />
     </Switch>
   </BrowserRouter>
