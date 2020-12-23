@@ -14,10 +14,10 @@ class About extends Component {
             <div className="line-horizon" />
           </div>
           <p className="about-text-description">I'm Nina, I'm a <a className="a-color" target="_blank" rel="noopener noreferrer" href="http://digitalmedia-bremen.de">Digital Media Master</a> student in Bremen, for exchange semester. I'm currently studying in the multimedia engineering school, <a className="a-color" target="_blank" rel="noopener noreferrer" href="https://www.ingenieur-imac.fr">IMAC</a>, in Paris. I love experiment with images and sounds, in all of its forms: video, photography, music composition, sounds design, and graphic design.</p>
-          <p className="about-text-stage">I'm currently available for all type of projects, just contact me !</p>
+          <p className="about-text-stage">I'm currently available for all type of projects, just contact me ! </p>
           <Link to="/DeCastro-Nina-CV-english.pdf" target="_blank" rel="noopener noreferrer" download><p className="about-text-resume">-------- Download my resume</p></Link>
           <div className="about-text-link">
-            {/* <a href="mailto: dcninaa@gmail.com"><p className="about-text-link-mail">mail</p></a> */}
+            <a href="mailto: dcninaa@gmail.com"><p className="about-text-link-mail">mail</p></a>
             <a href="https://www.linkedin.com/in/nina-de-castro-299626181/" target="_blank" rel="noopener noreferrer"><p className="about-text-link-linkedin">linkedin</p></a>
             <a href="https://www.instagram.com/_ninadecastro/" target="_blank" rel="noopener noreferrer"><p className="about-text-link-insta">instagram</p></a>
             <a href="https://vimeo.com/ninadecastro" target="_blank" rel="noopener noreferrer"><p className="about-text-link-sound">vimeo</p></a>

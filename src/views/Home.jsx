@@ -34,8 +34,9 @@ class Home extends Component {
             <div className="home-more-tab">
               <div className="home-more-tab-music">
                 <p className="home-more-tab-title">music</p>
+                <a href="https://soundcloud.com/ninadecastro/lesfleursdarmindo" target="_blank" rel="noopener noreferrer"><p>Les fleurs d'Armindo</p></a>
                 <a href="https://soundcloud.com/ninadecastro/expose" target="_blank" rel="noopener noreferrer"><p>Exposé</p></a>
-                <a href="https://soundcloud.com/ninadecastro/neige" target="_blank" rel="noopener noreferrer"><p>Neige</p></a>
+                {/* <a href="https://soundcloud.com/ninadecastro/neige" target="_blank" rel="noopener noreferrer"><p>Neige</p></a> */}
               </div>
               <div className="home-more-tab-films">
                 <p className="home-more-tab-title">films</p>

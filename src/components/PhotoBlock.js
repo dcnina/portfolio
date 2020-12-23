@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Footer from "../components/Footer";
 import Line from "../components/Line";
-import { Link } from "react-router-dom";
 import PhotoList from "../components/PhotoList";
 import photodata from "../datas/photodata";
 

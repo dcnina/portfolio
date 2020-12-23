@@ -63,7 +63,7 @@
 
                 &-line-horizon{
                     height: 2px;
-                    width: 40%;
+                    width: 46%;
                     background-color: black;
                     position: absolute;
                     right: 0;
@@ -79,6 +79,9 @@
     &-line{
         width: 350px;
         right: 175px;
+        @media (max-width: 900px){
+            width: 220px;
+        }
     }
 
 }

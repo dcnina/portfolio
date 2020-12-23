@@ -9,11 +9,13 @@ import About from "./views/About.jsx";
 import Project from "./views/Project.jsx";
 import Photo from "./views/Photo.jsx";
 import ScrollToTop from "./components/ScrollToTop";
+import TopContact from "./components/TopContact";
 
 const Root = () => (
   <BrowserRouter >
     <ScrollToTop/>
     <Menu />
+    <TopContact />
     <Switch>
       <Route exact path="/" component={Home} />
       <Route path="/about" component={About} />

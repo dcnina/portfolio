@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 // je t'aime baby
 const PhotoList = ({ title, photos }) => (

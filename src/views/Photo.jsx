@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import {useParams} from "react-router";
 import PhotoBlock from "../components/PhotoBlock";
 import ScrollToTop from "../components/ScrollToTop";
 
