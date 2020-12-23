@@ -13,7 +13,7 @@ class About extends Component {
             <p className="about-text-hello" id="hello">Hello!</p>
             <div className="line-horizon" />
           </div>
-          <p className="about-text-description">I'm Nina, I'm a <a className="a-color" target="_blank" rel="noopener noreferrer" href="http://digitalmedia-bremen.de">Digital Media Master</a> student in Bremen, for exchange semester. I'm currently studying in the multimedia engineering school, <a className="a-color" target="_blank" rel="noopener noreferrer" href="https://www.ingenieur-imac.fr">IMAC</a>, in Paris. I love experiment with images and sounds, in all of its forms: video, photography, music composition, sounds design, and graphic design.</p>
+          <p className="about-text-description">I'm Nina, I'm a freelance artist · editor. graphist. motion designer. photographer, near to Paris.<br></br><br></br>Recently graduated from the multimedia engineering school<a className="a-color" target="_blank" rel="noopener noreferrer" href="https://www.ingenieur-imac.fr"> IMAC</a>, after one exchange semester in the <a className="a-color" target="_blank" rel="noopener noreferrer" href="http://digitalmedia-bremen.de">Digital Media Master</a> in Bremen. I love experiment with images and sounds, in all of its forms: video, photography, music composition, sounds design, and graphic design.</p>
           <p className="about-text-stage">I'm currently available for all type of projects, just contact me ! </p>
           <Link to="/DeCastro-Nina-CV-english.pdf" target="_blank" rel="noopener noreferrer" download><p className="about-text-resume">-------- Download my resume</p></Link>
           <div className="about-text-link">

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
+import TopContact from "../components/TopContact";
 
 class Menu extends Component {
   constructor(props) {
@@ -26,6 +27,7 @@ class Menu extends Component {
   render() {
     return (
       <div className="menu">
+        <TopContact />
         <div>
           <NavLink onClick={this.scrollToTop} to="/">
             <div className="menu-name">nina de castro</div>

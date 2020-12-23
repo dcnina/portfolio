@@ -4,18 +4,17 @@ import "./index.scss";
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./views/Home.jsx";
-import Menu from "./components/Menu.jsx";
+import Menu from "./views/Menu.jsx";
 import About from "./views/About.jsx";
 import Project from "./views/Project.jsx";
 import Photo from "./views/Photo.jsx";
 import ScrollToTop from "./components/ScrollToTop";
-import TopContact from "./components/TopContact";
+
 
 const Root = () => (
   <BrowserRouter >
     <ScrollToTop/>
     <Menu />
-    <TopContact />
     <Switch>
       <Route exact path="/" component={Home} />
       <Route path="/about" component={About} />

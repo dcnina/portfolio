@@ -45,6 +45,8 @@
     "react-dev-utils": "^8.0.0",
     "react-dom": "^16.8.4",
     "react-mailto": "^0.4.0",
+    "react-native-fast-image": "^8.3.4",
+    "react-preload-image": "^1.0.7",
     "react-responsive-gallery": "^1.2.5",
     "react-router-dom": "^5.0.0",
     "react-router-scroll-top": "^0.2.1",

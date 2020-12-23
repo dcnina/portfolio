@@ -24,6 +24,14 @@ export default [
     img: "lfdb"
   },
   {
+    id: 5,
+    name: "gump",
+    title: "gump",
+    category:
+      "video graphism communication",
+    img: "gump"
+  },
+  {
     id: 1,
     name: "donnerdelavoix",
     title: "donner de la voix",

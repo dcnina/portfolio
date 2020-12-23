@@ -1,14 +1,14 @@
 export default [
    {
     title: "de ma fenêtre",
-    photos: [  "/matinsuspendu.png", "/fenetres1.png", "/fenetres3.png"]
+    photos: [  "/matinsuspendu.webp", "/fenetres1.webp", "/fenetres3.webp"]
   },
   {
     title: "lignes directrices",
-    photos: ["/lignes.png", "/toit.png", "/lignes2.png"]
+    photos: ["/lignes.webp", "/toit.webp", "/lignes2.webp"]
   },
   {
     title: "furtivement vôtre",
-    photos: ["/furtivement.png", "/furtivement2.png", "/furtivement3.png"]
+    photos: ["/furtivement.webp", "/furtivement2.webp", "/furtivement3.webp"]
   }
 ];
