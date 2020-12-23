@@ -36,6 +36,12 @@ class ProjectBlock extends Component {
         return null
     }
 
+    extraArrow = () => {
+        if (projectsdata[this.props.name].extraBool === 1)
+            return <p className="project-content-arrow">↓</p>
+        return null
+    }
+
     getContent = () => {
         var mainContent = projectsdata[this.props.name].mainContent;
         if (projectsdata[this.props.name].catContent === "video")
@@ -64,6 +70,7 @@ class ProjectBlock extends Component {
                         {/* <p className="project-content-infos-desc">{data.description}</p> */}
                         <p className="project-content-infos-skills">{data.skills}</p>
                     </div>
+                    {this.extraArrow()}
                 </div>
                 {this.extraVisibility()}
             </div>

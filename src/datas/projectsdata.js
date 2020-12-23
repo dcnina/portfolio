@@ -21,15 +21,15 @@ export default {
     },
     "lafermedubuisson":{
         title: "la ferme du buisson",
-        category: "video motion communication - season 2020",
+        category: "video motion communication",
         catContent:"video",
-        mainContent: "<iframe class=\"project-content-header-maincontent-video\" width=\"450\" height=\"253.125\" src=\"https://www.youtube.com/embed/-GcvBIrXiHI\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-        description: "<p className=\"project-content-infos-desc\"><a class=\"a-color\" href=\"https://www.lafermedubuisson.com/\" target=\"_blank\" rel=\"noopener noreferrer\">La Ferme du Buisson</a> is a cultural center near to Paris. It brings together a national stage, a cinema, an art center and others outdoor living spaces as well. A profusion of artistic disciplines are offered there, easily accessible to everyone.</br></br>During my internship of the summer 2019 I was communication assistant and I had to produce videos. I made teasers for events of 2019/2020: the new season, Les Enfants du désordre festival, Tout'ouïe festival and for all the events of the season.</p>",
+        mainContent: "<iframe class=\"project-content-header-maincontent-video\" width=\"450\" height=\"253.125\" src=\"https://player.vimeo.com/video/489404644\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        description: "<p className=\"project-content-infos-desc\"><a class=\"a-color\" href=\"https://www.lafermedubuisson.com/\" target=\"_blank\" rel=\"noopener noreferrer\">La Ferme du Buisson</a> is a cultural center near to Paris. It brings together a national stage, a cinema, an art center and others outdoor living spaces as well. A profusion of artistic disciplines are offered there, easily accessible to everyone.</br></br>During my internship of the summer 2019 I was communication assistant and I had to produce videos. I made teasers for events of 2019/2020. I'm currently working from them in freelance as a director, editor and motion designer.</p>",
         skills: "editing · adobe premier · after effect · photoshop · animation · ableton · sound design · graphism · communication",
-        extraContent: ["<iframe class=\"project-content-header-maincontent-videoextra\" width=\"426\" height=\"240\" src=\"https://www.youtube.com/embed/Qmm9dAPntHo\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        extraContent: ["<iframe class=\"project-content-header-maincontent-videoextra\" width=\"426\" height=\"240\" src=\"https://www.youtube.com/embed/-GcvBIrXiHI\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
         "<iframe class=\"project-content-header-maincontent-videoextra\" width=\"426\" height=\"240\" src=\"https://www.youtube.com/embed/S3B0gPKLj4o\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-        "<iframe class=\"project-content-header-maincontent-videoextra\" width=\"426\" height=\"240\" src=\"https://www.youtube.com/embed/jGkn8aLP3JM\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-        "<iframe  class=\"project-content-header-maincontent-videoextra\" width=\"426\" height=\"240\" src=\"https://www.youtube.com/embed/8gbrE6qofcQ\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"   
+        "<iframe class=\"project-content-header-maincontent-videoextra\" width=\"426\" height=\"240\" src=\"https://www.youtube.com/embed/GdOI1F0QxaI\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        "<iframe  class=\"project-content-header-maincontent-videoextra\" width=\"426\" height=\"240\" src=\"https://www.youtube.com/embed/Qmm9dAPntHo\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"   
         ],
         extraBool: 1
     },
