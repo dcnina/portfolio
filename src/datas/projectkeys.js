@@ -1,8 +1,8 @@
 export default [
-  "feminisms",
   "naivetespartagees",
   "lafermedubuisson",
   "gump",
   "donnerdelavoix",
+  "feminisms",
   "pulpfestival"
 ];

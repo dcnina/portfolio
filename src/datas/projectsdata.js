@@ -1,14 +1,4 @@
 export default {
-    "feminisms" :{
-        title: "feminism(s)",
-        category: "podcast",
-        catContent:"video",
-        mainContent: "<iframe class=\"project-content-header-maincontent-soundcloud\" width=\"450\" height=\"186\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/756692956&color=%239dd1bd&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true\"></iframe>",
-        description: "<p className=\"project-content-infos-desc\"><span style=\"font-style:italic\">What is Feminism? Each person seems to have a different relationship to feminism. Through interviews with students and passers-by at the Bürgerpark, let's try to think about the place of women in society and the term feminism itself. Feminism(s) raise important questions that can resonate in each person.</span></br></br>During my exchange semester in Bremen in Germany, I met many people from Germany and all over the world. I discovered new cultures and new ways of thinking. By confronting each other, we quickly realize that the definition of this term is much more blurry than what we think, it depends on our experience, our culture and our environment. So I thought it was the best moment to do this podcast and give people a chance to speak.</p>",
-        skills: "ableton · recording · mixing · editing · sound design · photoshop · graphic design ",
-        extraContent: [],
-        extraBool: 0
-    },
     "naivetespartagees":{
         title: "naïvetés partagées",
         category: "living photography exhibition",
@@ -40,12 +30,22 @@ export default {
         mainContent: "<iframe class=\"project-content-header-maincontent-video\" width=\"450\" height=\"253.125\" src=\"https://player.vimeo.com/video/493715266\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
         description: "<p className=\"project-content-infos-desc\"><a class=\"a-color\" href=\"https://www.gump.tv/\" target=\"_blank\" rel=\"noopener noreferrer\">Gump</a> is a production studio around video creation, in Paris. Creation, editing, production, motion design, calibration... they create videos from publicity to documentary. I work there as a editor, motion designer and graphist during 6 months.</p>",
         skills: "editing · motion design · adobe premier · after effect · photoshop · ableton · sound design · graphism",
-        extraContent: ["<iframe class=\"project-content-header-maincontent-videoextra\" width=\"426\" height=\"240\" src=\"https://player.vimeo.com/video/462950383\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-        "<iframe class=\"project-content-header-maincontent-videoextra\" width=\"426\" height=\"240\" src=\"https://www.youtube.com/embed/N5B8l27IBPw\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        extraContent: ["<iframe class=\"project-content-header-maincontent-videoextra\" width=\"426\" height=\"240\" src=\"https://player.vimeo.com/video/50298946\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        "<iframe class=\"project-content-header-maincontent-videoextra\" width=\"426\" height=\"240\" src=\"https://player.vimeo.com/video/462950383\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
         "<iframe class=\"project-content-header-maincontent-videoextra\" width=\"426\" height=\"240\" src=\"https://www.youtube.com/embed/HkD_l8QjJWc\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-        "<iframe  class=\"project-content-header-maincontent-videoextra\" width=\"426\" height=\"240\" src=\"https://www.youtube.com/embed/-EpjX9hCyTg\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"   
+        "<iframe  class=\"project-content-header-maincontent-videoextra\" width=\"426\" height=\"240\" src=\"https://www.youtube.com/embed/_RwM6PaZuEE\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"   
         ],
         extraBool: 1
+    },
+    "feminisms" :{
+        title: "feminism(s)",
+        category: "podcast",
+        catContent:"video",
+        mainContent: "<iframe class=\"project-content-header-maincontent-soundcloud\" width=\"450\" height=\"186\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/756692956&color=%239dd1bd&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true\"></iframe>",
+        description: "<p className=\"project-content-infos-desc\"><span style=\"font-style:italic\">What is Feminism? Each person seems to have a different relationship to feminism. Through interviews with students and passers-by at the Bürgerpark, let's try to think about the place of women in society and the term feminism itself. Feminism(s) raise important questions that can resonate in each person.</span></br></br>During my exchange semester in Bremen in Germany, I met many people from Germany and all over the world. I discovered new cultures and new ways of thinking. By confronting each other, we quickly realize that the definition of this term is much more blurry than what we think, it depends on our experience, our culture and our environment. So I thought it was the best moment to do this podcast and give people a chance to speak.</p>",
+        skills: "ableton · recording · mixing · editing · sound design · photoshop · graphic design ",
+        extraContent: [],
+        extraBool: 0
     },
     "donnerdelavoix":{
         title: "donner de la voix",
