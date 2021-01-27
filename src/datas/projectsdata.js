@@ -30,7 +30,7 @@ export default {
         mainContent: "<iframe class=\"project-content-header-maincontent-video\" width=\"450\" height=\"253.125\" src=\"https://player.vimeo.com/video/493715266\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
         description: "<p className=\"project-content-infos-desc\"><a class=\"a-color\" href=\"https://www.gump.tv/\" target=\"_blank\" rel=\"noopener noreferrer\">Gump</a> is a production studio around video creation, in Paris. Creation, editing, production, motion design, calibration... they create videos from publicity to documentary. I work there as a editor, motion designer and graphist during 6 months.</p>",
         skills: "editing · motion design · adobe premier · after effect · photoshop · ableton · sound design · graphism",
-        extraContent: ["<iframe class=\"project-content-header-maincontent-videoextra\" width=\"426\" height=\"240\" src=\"https://player.vimeo.com/video/50298946\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        extraContent: ["<iframe class=\"project-content-header-maincontent-videoextra\" width=\"426\" height=\"240\" src=\"https://player.vimeo.com/video/502989460\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
         "<iframe class=\"project-content-header-maincontent-videoextra\" width=\"426\" height=\"240\" src=\"https://player.vimeo.com/video/462950383\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
         "<iframe class=\"project-content-header-maincontent-videoextra\" width=\"426\" height=\"240\" src=\"https://www.youtube.com/embed/HkD_l8QjJWc\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
         "<iframe  class=\"project-content-header-maincontent-videoextra\" width=\"426\" height=\"240\" src=\"https://www.youtube.com/embed/_RwM6PaZuEE\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"   
@@ -68,3 +68,5 @@ export default {
         extraBool: 0
     }
 };
+
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/502989460" width="640" height="360" frameborder="0" allowfullscreen></iframe>
