@@ -68,5 +68,3 @@ export default {
         extraBool: 0
     }
 };
-
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/502989460" width="640" height="360" frameborder="0" allowfullscreen></iframe>
